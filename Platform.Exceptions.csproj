@@ -4,15 +4,15 @@
     <Description>LinksPlatform's Platform.Exceptions Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
-    <VersionPrefix>0.0.2</VersionPrefix>
+    <VersionPrefix>0.1.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Exceptions</AssemblyName>
     <PackageId>Platform.Exceptions</PackageId>
-    <PackageTags>LinksPlatform;Exceptions;Ensure;Throw;ExceptionExtensions</PackageTags>
-    <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/d65e8dd6e1b647405bc3d33687172e79b70e3435/doc/Avatar-rainbow.png</PackageIconUrl>
+    <PackageTags>LinksPlatform;Exceptions;Ensure;Throw;ExceptionExtensions;IgnoredExceptions</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/linksplatform/Exceptions</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/linksplatform/Exceptions/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/linksplatform/Exceptions</RepositoryUrl>
@@ -21,11 +21,13 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReleaseNotes>Ensure and Throw are extendable now, just use regular extensions for (EnsureAlwaysExtensionRoot, EnsureOnDebugExtensionRoot and ThrowExtensionRoot).
+Added IgnoredExceptions static class. If you need handle all ignored exception you need to raise and then handle IgnoredExceptions.ExceptionIgnored static event.
+Added Ignore() extension method for Exception class. This method raises IgnoredExceptions.ExceptionIgnored static event.
+"ToRecursiveString" extension method renamed to "ToStringWithAllInnerExceptions".
+Dropped dependencies on other packages.
+These changes are not backwards compatible with previous 0.0.2 release.
+Closes two issues.</PackageReleaseNotes>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Platform.Disposables" Version="0.0.1" />
-    <PackageReference Include="Platform.Ranges" Version="0.0.1" />
-  </ItemGroup>
 
 </Project>

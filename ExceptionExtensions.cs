@@ -6,44 +6,47 @@ namespace Platform.Exceptions
     public static class ExceptionExtensions
     {
         public const string ExceptionContentsSeparator = "---";
-        public const string ExceptionFailed = "Unable to format occured exception.";
+        public const string ExceptionStringBuildingFailed = "Unable to format exception.";
 
-        public static string ToRecursiveString(this Exception ex)
+        public static void Ignore(this Exception exception) => IgnoredExceptions.RaiseExceptionIgnoredEvent(exception);
+
+        public static string ToStringWithAllInnerExceptions(this Exception exception)
         {
             try
             {
                 var sb = new StringBuilder();
-                ToRecursiveStringCore(sb, ex, 0);
+                BuildExceptionString(sb, exception, 0);
                 return sb.ToString();
             }
-            catch
+            catch (Exception ex)
             {
-                return ExceptionFailed;
+                ex.Ignore();
+                return ExceptionStringBuildingFailed;
             }
         }
 
-        private static void ToRecursiveStringCore(StringBuilder sb, Exception ex, int level)
+        private static void BuildExceptionString(StringBuilder sb, Exception exception, int level)
         {
             sb.Append('\t', level);
             sb.Append("Exception message: ");
-            sb.AppendLine(ex.Message);
+            sb.AppendLine(exception.Message);
 
             sb.Append('\t', level);
             sb.AppendLine(ExceptionContentsSeparator);
 
-            if (ex.InnerException != null)
+            if (exception.InnerException != null)
             {
                 sb.Append('\t', level);
                 sb.AppendLine("Inner Exception: ");
 
-                ToRecursiveStringCore(sb, ex.InnerException, level + 1);
+                BuildExceptionString(sb, exception.InnerException, level + 1);
             }
 
             sb.Append('\t', level);
             sb.AppendLine(ExceptionContentsSeparator);
 
             sb.Append('\t', level);
-            sb.AppendLine(ex.StackTrace);
+            sb.AppendLine(exception.StackTrace);
         }
     }
 }
