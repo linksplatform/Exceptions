@@ -5,8 +5,8 @@ namespace Platform.Exceptions
 {
     public static class ExceptionExtensions
     {
-        public const string ExceptionContentsSeparator = "---";
-        public const string ExceptionStringBuildingFailed = "Unable to format exception.";
+        public static readonly string ExceptionContentsSeparator = "---";
+        public static readonly string ExceptionStringBuildingFailed = "Unable to format exception.";
 
         public static void Ignore(this Exception exception) => IgnoredExceptions.RaiseExceptionIgnoredEvent(exception);
 
