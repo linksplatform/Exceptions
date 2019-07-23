@@ -12,14 +12,18 @@ namespace Platform.Exceptions
            where TArgument : class
         {
             if (argument == null)
+            {
                 throw new ArgumentNullException(argumentName);
+            }
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void ArgumentZeroOrPositive(this EnsureAlwaysExtensionRoot ensure, long argument, string argumentName)
         {
             if (argument < 0)
+            {
                 throw new ArgumentOutOfRangeException(argumentName, "Must be positive.");
+            }
         }
     }
 }
