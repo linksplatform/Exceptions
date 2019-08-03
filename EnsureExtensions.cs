@@ -12,7 +12,7 @@ namespace Platform.Exceptions
         #region Always
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentNotNull<TArgument>(this EnsureAlwaysExtensionRoot ensure, TArgument argument, string argumentName)
+        public static void ArgumentNotNull<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, string argumentName)
            where TArgument : class
         {
             if (argument == null)
@@ -22,7 +22,7 @@ namespace Platform.Exceptions
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentZeroOrPositive(this EnsureAlwaysExtensionRoot ensure, long argument, string argumentName)
+        public static void ArgumentZeroOrPositive(this EnsureAlwaysExtensionRoot root, long argument, string argumentName)
         {
             if (argument < 0)
             {
@@ -35,10 +35,10 @@ namespace Platform.Exceptions
         #region OnDebug
 
         [Conditional("DEBUG")]
-        public static void ArgumentNotNull<TArgument>(this EnsureOnDebugExtensionRoot ensure, TArgument argument, string argumentName) where TArgument : class => Ensure.Always.ArgumentNotNull(argument, argumentName);
+        public static void ArgumentNotNull<TArgument>(this EnsureOnDebugExtensionRoot root, TArgument argument, string argumentName) where TArgument : class => Ensure.Always.ArgumentNotNull(argument, argumentName);
 
         [Conditional("DEBUG")]
-        public static void ArgumentZeroOrPositive(this EnsureOnDebugExtensionRoot ensure, long argument, string argumentName) => Ensure.Always.ArgumentZeroOrPositive(argument, argumentName);
+        public static void ArgumentZeroOrPositive(this EnsureOnDebugExtensionRoot root, long argument, string argumentName) => Ensure.Always.ArgumentZeroOrPositive(argument, argumentName);
 
         #endregion
     }
