@@ -1,4 +1,6 @@
-﻿namespace Platform.Exceptions
+﻿using Platform.Exceptions.ExtensionRoots;
+
+namespace Platform.Exceptions
 {
     public static class Ensure
     {

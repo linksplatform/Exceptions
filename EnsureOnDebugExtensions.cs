@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using Platform.Exceptions.ExtensionRoots;
 
 #pragma warning disable IDE0060 // Remove unused parameter
 
