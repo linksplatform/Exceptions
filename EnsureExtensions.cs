@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Platform.Exceptions.ExtensionRoots;
 
@@ -8,6 +9,8 @@ namespace Platform.Exceptions
 {
     public static class EnsureAlwaysExtensions
     {
+        #region Always
+
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void ArgumentNotNull<TArgument>(this EnsureAlwaysExtensionRoot ensure, TArgument argument, string argumentName)
            where TArgument : class
@@ -26,5 +29,17 @@ namespace Platform.Exceptions
                 throw new ArgumentOutOfRangeException(argumentName, "Must be positive.");
             }
         }
+
+        #endregion
+
+        #region OnDebug
+
+        [Conditional("DEBUG")]
+        public static void ArgumentNotNull<TArgument>(this EnsureOnDebugExtensionRoot ensure, TArgument argument, string argumentName) where TArgument : class => Ensure.Always.ArgumentNotNull(argument, argumentName);
+
+        [Conditional("DEBUG")]
+        public static void ArgumentZeroOrPositive(this EnsureOnDebugExtensionRoot ensure, long argument, string argumentName) => Ensure.Always.ArgumentZeroOrPositive(argument, argumentName);
+
+        #endregion
     }
 }
