@@ -6,11 +6,11 @@ namespace Platform.Exceptions
 {
     public static class IgnoredExceptions
     {
-        private static readonly ConcurrentBag<Exception> ExceptionsBag = new ConcurrentBag<Exception>();
+        private static readonly ConcurrentBag<Exception> _exceptionsBag = new ConcurrentBag<Exception>();
 
         public static event EventHandler<Exception> ExceptionIgnored = OnExceptionIgnored;
 
-        public static IReadOnlyCollection<Exception> All => ExceptionsBag;
+        public static IReadOnlyCollection<Exception> All => _exceptionsBag;
 
         public static bool CollectExceptions { get; set; }
 
@@ -20,7 +20,7 @@ namespace Platform.Exceptions
         {
             if (CollectExceptions)
             {
-                ExceptionsBag.Add(exception);
+                _exceptionsBag.Add(exception);
             }
         }
     }

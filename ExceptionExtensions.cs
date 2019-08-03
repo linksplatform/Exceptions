@@ -30,21 +30,16 @@ namespace Platform.Exceptions
             sb.Append('\t', level);
             sb.Append("Exception message: ");
             sb.AppendLine(exception.Message);
-
             sb.Append('\t', level);
             sb.AppendLine(ExceptionContentsSeparator);
-
             if (exception.InnerException != null)
             {
                 sb.Append('\t', level);
                 sb.AppendLine("Inner Exception: ");
-
                 BuildExceptionString(sb, exception.InnerException, level + 1);
             }
-
             sb.Append('\t', level);
             sb.AppendLine(ExceptionContentsSeparator);
-
             sb.Append('\t', level);
             sb.AppendLine(exception.StackTrace);
         }
