@@ -21,24 +21,12 @@ namespace Platform.Exceptions
             }
         }
 
-        [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentZeroOrPositive(this EnsureAlwaysExtensionRoot root, long argument, string argumentName)
-        {
-            if (argument < 0)
-            {
-                throw new ArgumentOutOfRangeException(argumentName, "Must be positive.");
-            }
-        }
-
         #endregion
 
         #region OnDebug
 
         [Conditional("DEBUG")]
         public static void ArgumentNotNull<TArgument>(this EnsureOnDebugExtensionRoot root, TArgument argument, string argumentName) where TArgument : class => Ensure.Always.ArgumentNotNull(argument, argumentName);
-
-        [Conditional("DEBUG")]
-        public static void ArgumentZeroOrPositive(this EnsureOnDebugExtensionRoot root, long argument, string argumentName) => Ensure.Always.ArgumentZeroOrPositive(argument, argumentName);
 
         #endregion
     }
