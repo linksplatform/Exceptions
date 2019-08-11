@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Exceptions Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
-    <VersionPrefix>0.1.0</VersionPrefix>
+    <VersionPrefix>0.1.1</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Exceptions</AssemblyName>
@@ -21,13 +21,10 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageReleaseNotes>Ensure and Throw are extendable now, just use regular extensions for (EnsureAlwaysExtensionRoot, EnsureOnDebugExtensionRoot and ThrowExtensionRoot).
-Added IgnoredExceptions static class. If you need handle all ignored exception you need to raise and then handle IgnoredExceptions.ExceptionIgnored static event.
-Added Ignore() extension method for Exception class. This method raises IgnoredExceptions.ExceptionIgnored static event.
-"ToRecursiveString" extension method renamed to "ToStringWithAllInnerExceptions".
-Dropped dependencies on other packages.
-These changes are not backwards compatible with previous 0.0.2 release.
-Closes two issues.</PackageReleaseNotes>
+    <PackageReleaseNotes>IgnoredExceptions.All renamed to IgnoredExceptions.CollectedExceptions.
+Added ArgumentMeetsCriteria methods for Ensure static class.
+Added comments to code.
+Refactoring, issues fix.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
