@@ -272,6 +272,78 @@ references:
   isSpec: "True"
   fullName: Platform.Exceptions.IgnoredExceptions.RaiseExceptionIgnoredEvent
   nameWithType: IgnoredExceptions.RaiseExceptionIgnoredEvent
+- uid: Platform.Exceptions.Tests
+  name: Platform.Exceptions.Tests
+  href: api/Platform.Exceptions.Tests.html
+  commentId: N:Platform.Exceptions.Tests
+  fullName: Platform.Exceptions.Tests
+  nameWithType: Platform.Exceptions.Tests
+- uid: Platform.Exceptions.Tests.EnsuranceTests
+  name: EnsuranceTests
+  href: api/Platform.Exceptions.Tests.EnsuranceTests.html
+  commentId: T:Platform.Exceptions.Tests.EnsuranceTests
+  fullName: Platform.Exceptions.Tests.EnsuranceTests
+  nameWithType: EnsuranceTests
+- uid: Platform.Exceptions.Tests.EnsuranceTests.ArgumentNotNullEnsuranceTest
+  name: ArgumentNotNullEnsuranceTest()
+  href: api/Platform.Exceptions.Tests.EnsuranceTests.html#Platform_Exceptions_Tests_EnsuranceTests_ArgumentNotNullEnsuranceTest
+  commentId: M:Platform.Exceptions.Tests.EnsuranceTests.ArgumentNotNullEnsuranceTest
+  fullName: Platform.Exceptions.Tests.EnsuranceTests.ArgumentNotNullEnsuranceTest()
+  nameWithType: EnsuranceTests.ArgumentNotNullEnsuranceTest()
+- uid: Platform.Exceptions.Tests.EnsuranceTests.ArgumentNotNullEnsuranceTest*
+  name: ArgumentNotNullEnsuranceTest
+  href: api/Platform.Exceptions.Tests.EnsuranceTests.html#Platform_Exceptions_Tests_EnsuranceTests_ArgumentNotNullEnsuranceTest_
+  commentId: Overload:Platform.Exceptions.Tests.EnsuranceTests.ArgumentNotNullEnsuranceTest
+  isSpec: "True"
+  fullName: Platform.Exceptions.Tests.EnsuranceTests.ArgumentNotNullEnsuranceTest
+  nameWithType: EnsuranceTests.ArgumentNotNullEnsuranceTest
+- uid: Platform.Exceptions.Tests.Ignore
+  name: Platform.Exceptions.Tests.Ignore
+  href: api/Platform.Exceptions.Tests.Ignore.html
+  commentId: N:Platform.Exceptions.Tests.Ignore
+  fullName: Platform.Exceptions.Tests.Ignore
+  nameWithType: Platform.Exceptions.Tests.Ignore
+- uid: Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions
+  name: EnsureAlwaysExtensions
+  href: api/Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.html
+  commentId: T:Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions
+  fullName: Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions
+  nameWithType: EnsureAlwaysExtensions
+- uid: Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.ArgumentNotNull*
+  name: ArgumentNotNull
+  href: api/Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.html#Platform_Exceptions_Tests_Ignore_EnsureAlwaysExtensions_ArgumentNotNull_
+  commentId: Overload:Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.ArgumentNotNull
+  isSpec: "True"
+  fullName: Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.ArgumentNotNull
+  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull
+- uid: Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String)
+  name: ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String)
+  href: api/Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.html#Platform_Exceptions_Tests_Ignore_EnsureAlwaysExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_String_
+  commentId: M:Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String)
+  name.vb: ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String)
+  fullName: Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String)
+  fullName.vb: Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String)
+  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String)
+  nameWithType.vb: EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String)
+- uid: Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests
+  name: IgnoredEnsuranceTests
+  href: api/Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.html
+  commentId: T:Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests
+  fullName: Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests
+  nameWithType: IgnoredEnsuranceTests
+- uid: Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.EnsuranceIgnoredTest
+  name: EnsuranceIgnoredTest()
+  href: api/Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.html#Platform_Exceptions_Tests_Ignore_IgnoredEnsuranceTests_EnsuranceIgnoredTest
+  commentId: M:Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.EnsuranceIgnoredTest
+  fullName: Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.EnsuranceIgnoredTest()
+  nameWithType: IgnoredEnsuranceTests.EnsuranceIgnoredTest()
+- uid: Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.EnsuranceIgnoredTest*
+  name: EnsuranceIgnoredTest
+  href: api/Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.html#Platform_Exceptions_Tests_Ignore_IgnoredEnsuranceTests_EnsuranceIgnoredTest_
+  commentId: Overload:Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.EnsuranceIgnoredTest
+  isSpec: "True"
+  fullName: Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.EnsuranceIgnoredTest
+  nameWithType: IgnoredEnsuranceTests.EnsuranceIgnoredTest
 - uid: Platform.Exceptions.Throw
   name: Throw
   href: api/Platform.Exceptions.Throw.html
