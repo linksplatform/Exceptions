@@ -6,7 +6,8 @@
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
     <VersionPrefix>0.1.1</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">netstandard2.0;net461</TargetFrameworks>
+    <TargetFramework Condition="'$(OS)' != 'Windows_NT'">netcoreapp2.0</TargetFramework>
     <AssemblyName>Platform.Exceptions</AssemblyName>
     <PackageId>Platform.Exceptions</PackageId>
     <PackageTags>LinksPlatform;Exceptions;Ensure;EnsureExtensions;Throw;ThrowExtensions;ExceptionExtensions;IgnoredExceptions;ExtensionRoots;EnsureAlwaysExtensionRoot;EnsureOnDebugExtensionRoot;ThrowExtensionRoot</PackageTags>
