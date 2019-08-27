@@ -383,14 +383,14 @@ references:
   fullName: Platform.Exceptions.ThrowExtensions.NotImplementedExceptionAndReturn
   nameWithType: ThrowExtensions.NotImplementedExceptionAndReturn
 - uid: Platform.Exceptions.ThrowExtensions.NotImplementedExceptionAndReturn``1(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  name: NotImplementedExceptionAndReturn<T>(ThrowExtensionRoot)
+  name: NotImplementedExceptionAndReturn<TReturn>(ThrowExtensionRoot)
   href: api/Platform.Exceptions.ThrowExtensions.html#Platform_Exceptions_ThrowExtensions_NotImplementedExceptionAndReturn__1_Platform_Exceptions_ExtensionRoots_ThrowExtensionRoot_
   commentId: M:Platform.Exceptions.ThrowExtensions.NotImplementedExceptionAndReturn``1(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  name.vb: NotImplementedExceptionAndReturn(Of T)(ThrowExtensionRoot)
-  fullName: Platform.Exceptions.ThrowExtensions.NotImplementedExceptionAndReturn<T>(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  fullName.vb: Platform.Exceptions.ThrowExtensions.NotImplementedExceptionAndReturn(Of T)(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  nameWithType: ThrowExtensions.NotImplementedExceptionAndReturn<T>(ThrowExtensionRoot)
-  nameWithType.vb: ThrowExtensions.NotImplementedExceptionAndReturn(Of T)(ThrowExtensionRoot)
+  name.vb: NotImplementedExceptionAndReturn(Of TReturn)(ThrowExtensionRoot)
+  fullName: Platform.Exceptions.ThrowExtensions.NotImplementedExceptionAndReturn<TReturn>(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
+  fullName.vb: Platform.Exceptions.ThrowExtensions.NotImplementedExceptionAndReturn(Of TReturn)(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
+  nameWithType: ThrowExtensions.NotImplementedExceptionAndReturn<TReturn>(ThrowExtensionRoot)
+  nameWithType.vb: ThrowExtensions.NotImplementedExceptionAndReturn(Of TReturn)(ThrowExtensionRoot)
 - uid: Platform.Exceptions.ThrowExtensions.NotSupportedException(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
   name: NotSupportedException(ThrowExtensionRoot)
   href: api/Platform.Exceptions.ThrowExtensions.html#Platform_Exceptions_ThrowExtensions_NotSupportedException_Platform_Exceptions_ExtensionRoots_ThrowExtensionRoot_
@@ -412,11 +412,11 @@ references:
   fullName: Platform.Exceptions.ThrowExtensions.NotSupportedExceptionAndReturn
   nameWithType: ThrowExtensions.NotSupportedExceptionAndReturn
 - uid: Platform.Exceptions.ThrowExtensions.NotSupportedExceptionAndReturn``1(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  name: NotSupportedExceptionAndReturn<T>(ThrowExtensionRoot)
+  name: NotSupportedExceptionAndReturn<TReturn>(ThrowExtensionRoot)
   href: api/Platform.Exceptions.ThrowExtensions.html#Platform_Exceptions_ThrowExtensions_NotSupportedExceptionAndReturn__1_Platform_Exceptions_ExtensionRoots_ThrowExtensionRoot_
   commentId: M:Platform.Exceptions.ThrowExtensions.NotSupportedExceptionAndReturn``1(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  name.vb: NotSupportedExceptionAndReturn(Of T)(ThrowExtensionRoot)
-  fullName: Platform.Exceptions.ThrowExtensions.NotSupportedExceptionAndReturn<T>(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  fullName.vb: Platform.Exceptions.ThrowExtensions.NotSupportedExceptionAndReturn(Of T)(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
-  nameWithType: ThrowExtensions.NotSupportedExceptionAndReturn<T>(ThrowExtensionRoot)
-  nameWithType.vb: ThrowExtensions.NotSupportedExceptionAndReturn(Of T)(ThrowExtensionRoot)
+  name.vb: NotSupportedExceptionAndReturn(Of TReturn)(ThrowExtensionRoot)
+  fullName: Platform.Exceptions.ThrowExtensions.NotSupportedExceptionAndReturn<TReturn>(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
+  fullName.vb: Platform.Exceptions.ThrowExtensions.NotSupportedExceptionAndReturn(Of TReturn)(Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot)
+  nameWithType: ThrowExtensions.NotSupportedExceptionAndReturn<TReturn>(ThrowExtensionRoot)
+  nameWithType.vb: ThrowExtensions.NotSupportedExceptionAndReturn(Of TReturn)(ThrowExtensionRoot)
