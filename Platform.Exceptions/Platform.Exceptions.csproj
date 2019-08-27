@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Exceptions Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
-    <VersionPrefix>0.1.1</VersionPrefix>
+    <VersionPrefix>0.2.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">netstandard2.0;net461</TargetFrameworks>
     <TargetFramework Condition="'$(OS)' != 'Windows_NT'">netcoreapp2.0</TargetFramework>
@@ -22,10 +22,15 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageReleaseNotes>IgnoredExceptions.All renamed to IgnoredExceptions.CollectedExceptions.
-Added ArgumentMeetsCriteria methods for Ensure static class.
-Added comments to code.
-Refactoring, issues fix.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added support for net461 (.NET Framework 4.6.1).
+Arguments for EnsureAlwaysExtensions.ArgumentMeetsCriteria methods reordered. This is breaking change.
+Added missing comments.
+XML documentation file generation turned on.
+Tests added.
+Travis CI connected.
+Refactoring, issues fix.
+
+This release is not backward compatible with the previous 0.1.1 release.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
