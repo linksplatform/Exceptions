@@ -61,12 +61,12 @@ namespace Platform.Exceptions
         /// </summary>
         /// <typeparam name="TArgument"><para>Type of argument.</para><para>Тип аргумента.</para></typeparam>
         /// <param name="root"><para>The extension root to which this method is bound.</para><para>Корень-расширения, к которому привязан этот метод.</para></param>
-        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argument"><para>The argument.</para><para>Аргумент.</para></param>
+        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argumentName"><para>The argument's name.</para><para>Имя аргумента.</para></param>
         /// <param name="message"><para>The message of the thrown exception.</para><para>Сообщение выбрасываемого исключения.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, Predicate<TArgument> predicate, TArgument argument, string argumentName, string message)
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName, string message)
         {
             if (!predicate(argument))
             {
@@ -80,11 +80,11 @@ namespace Platform.Exceptions
         /// </summary>
         /// <typeparam name="TArgument"><para>Type of argument.</para><para>Тип аргумента.</para></typeparam>
         /// <param name="root"><para>The extension root to which this method is bound.</para><para>Корень-расширения, к которому привязан этот метод.</para></param>
-        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argument"><para>The argument.</para><para>Аргумент.</para></param>
+        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argumentName"><para>The argument's name.</para><para>Имя аргумента.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, Predicate<TArgument> predicate, TArgument argument, string argumentName) => ArgumentMeetsCriteria(root, predicate, argument, argumentName, $"Argument {argumentName} is does not meet criteria.");
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName) => ArgumentMeetsCriteria(root, argument, predicate, argumentName, $"Argument {argumentName} is does not meet criteria.");
 
         /// <summary>
         /// <para>Ensures that the argument meets the criteria. This check is performed regardless of the build configuration.</para>
@@ -92,10 +92,10 @@ namespace Platform.Exceptions
         /// </summary>
         /// <typeparam name="TArgument"><para>Type of argument.</para><para>Тип аргумента.</para></typeparam>
         /// <param name="root"><para>The extension root to which this method is bound.</para><para>Корень-расширения, к которому привязан этот метод.</para></param>
-        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argument"><para>The argument.</para><para>Аргумент.</para></param>
+        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, Predicate<TArgument> predicate, TArgument argument) => ArgumentMeetsCriteria(root, predicate, argument, null);
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, Predicate<TArgument> predicate) => ArgumentMeetsCriteria(root, argument, predicate, null);
 
         #endregion
 
@@ -140,12 +140,12 @@ namespace Platform.Exceptions
         /// </summary>
         /// <typeparam name="TArgument"><para>Type of argument.</para><para>Тип аргумента.</para></typeparam>
         /// <param name="root"><para>The extension root to which this method is bound.</para><para>Корень-расширения, к которому привязан этот метод.</para></param>
-        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argument"><para>The argument.</para><para>Аргумент.</para></param>
+        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argumentName"><para>The argument's name.</para><para>Имя аргумента.</para></param>
         /// <param name="message"><para>The message of the thrown exception.</para><para>Сообщение выбрасываемого исключения.</para></param>
         [Conditional("DEBUG")]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureOnDebugExtensionRoot root, Predicate<TArgument> predicate, TArgument argument, string argumentName, string message) => Ensure.Always.ArgumentMeetsCriteria(predicate, argument, argumentName, message);
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureOnDebugExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName, string message) => Ensure.Always.ArgumentMeetsCriteria(argument, predicate, argumentName, message);
 
         /// <summary>
         /// <para>Ensures that the argument meets the criteria. This check is performed only for DEBUG build configuration.</para>
@@ -153,11 +153,11 @@ namespace Platform.Exceptions
         /// </summary>
         /// <typeparam name="TArgument"><para>Type of argument.</para><para>Тип аргумента.</para></typeparam>
         /// <param name="root"><para>The extension root to which this method is bound.</para><para>Корень-расширения, к которому привязан этот метод.</para></param>
-        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argument"><para>The argument.</para><para>Аргумент.</para></param>
+        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argumentName"><para>The argument's name.</para><para>Имя аргумента.</para></param>
         [Conditional("DEBUG")]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureOnDebugExtensionRoot root, Predicate<TArgument> predicate, TArgument argument, string argumentName) => Ensure.Always.ArgumentMeetsCriteria(predicate, argument, argumentName);
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureOnDebugExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName) => Ensure.Always.ArgumentMeetsCriteria(argument, predicate, argumentName);
 
         /// <summary>
         /// <para>Ensures that the argument meets the criteria. This check is performed only for DEBUG build configuration.</para>
@@ -165,10 +165,10 @@ namespace Platform.Exceptions
         /// </summary>
         /// <typeparam name="TArgument"><para>Type of argument.</para><para>Тип аргумента.</para></typeparam>
         /// <param name="root"><para>The extension root to which this method is bound.</para><para>Корень-расширения, к которому привязан этот метод.</para></param>
-        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argument"><para>The argument.</para><para>Аргумент.</para></param>
+        /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         [Conditional("DEBUG")]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureOnDebugExtensionRoot root, Predicate<TArgument> predicate, TArgument argument) => Ensure.Always.ArgumentMeetsCriteria(predicate, argument);
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureOnDebugExtensionRoot root, TArgument argument, Predicate<TArgument> predicate) => Ensure.Always.ArgumentMeetsCriteria(argument, predicate);
 
         #endregion
     }
