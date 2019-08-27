@@ -70,7 +70,7 @@ namespace Platform.Exceptions
         {
             if (!predicate(argument))
             {
-                throw new ArgumentException(argumentName, message);
+                throw new ArgumentException(message, argumentName);
             }
         }
 
