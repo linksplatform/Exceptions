@@ -52,14 +52,13 @@ namespace Platform.Exceptions
         private static void BuildExceptionString(this StringBuilder sb, Exception exception, int level)
         {
             sb.Indent(level);
-            sb.Append("Exception message: ");
             sb.AppendLine(exception.Message);
             sb.Indent(level);
             sb.AppendLine(ExceptionContentsSeparator);
             if (exception.InnerException != null)
             {
                 sb.Indent(level);
-                sb.AppendLine("Inner Exception: ");
+                sb.AppendLine("Inner exception: ");
                 sb.BuildExceptionString(exception.InnerException, level + 1);
             }
             sb.Indent(level);
