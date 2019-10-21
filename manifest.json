@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/home/travis/build/linksplatform/Exceptions",
+  "source_base_path": "/home/runner/work/Exceptions/Exceptions",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.Ensure.html",
-          "hash": "K92rTtwaSXnUaB66xcmciQ=="
+          "hash": "TSrLfzA8g330Tx7VicjSbg=="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.EnsureAlwaysExtensions.yml",
+      "source_relative_path": "obj/api/Platform.Exceptions.EnsureExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Exceptions.EnsureAlwaysExtensions.html",
-          "hash": "+S+poUrF5MmGJN4xA73qlQ=="
+          "relative_path": "api/Platform.Exceptions.EnsureExtensions.html",
+          "hash": "n0MkMYYOtNqvCutxmBYuWA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExceptionExtensions.html",
-          "hash": "f++ipWS76ge26H1XdHVtXA=="
+          "hash": "D4cKNXr7UVWtC0CIUrjw4A=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot.html",
-          "hash": "jRH7BLagFuxvUm6J9zS4AA=="
+          "hash": "b0x51Dw8tuplQ9hF4iTUww=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot.html",
-          "hash": "kzXEwKUerGWLgVsNPMfxgQ=="
+          "hash": "YBBCSpb3hb/ygqqElcMG4w=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot.html",
-          "hash": "3BotpR0bvqRlghCCJBmJug=="
+          "hash": "3DVG2ybWyhZLY+PF3AeV1g=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.IgnoredExceptions.html",
-          "hash": "d1+QIfxOVPru7cwJ7h0TaA=="
+          "hash": "6XcNJEcUp9a0KnxSQlJ2rA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.Tests.EnsuranceTests.html",
-          "hash": "lAufXWm0lVG9SEbOvbg+vg=="
+          "hash": "pYvpdVjozBFQNp8F+tqraA=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.Tests.Ignore.EnsureAlwaysExtensions.html",
-          "hash": "WtFExzdKNhRbDcpy9cBpsA=="
+          "hash": "kq5KAwgD4fVygU0lwnUlag=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.Tests.Ignore.IgnoredEnsuranceTests.html",
-          "hash": "9UtXwN/aq1E9txIBFP+tTQ=="
+          "hash": "6qik6eturPep1rrkjZSxzQ=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.Throw.html",
-          "hash": "rOSmjgmF7uSFU9/2QXJewA=="
+          "hash": "iagSTNaLb/OkgDAWnOrA1w=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ThrowExtensions.html",
-          "hash": "4MURPsKSu/SOTlfLicEGSA=="
+          "hash": "UzWssZXMyQaPj2TN3RlhuA=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.html",
-          "hash": "DfhrBcjoyKCCMAu5ggqWsg=="
+          "hash": "PAXmymKU5wiWK3xqQS8UTA=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "K6J+tjr64bg4Lqp7A+oa1Q=="
+          "hash": "m3Sb6Q9I+H1FagwhGtCQ0g=="
         }
       },
       "is_incremental": false,
@@ -255,11 +255,10 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 16,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -268,10 +267,11 @@
           "total_file_count": 1,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 16,
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }

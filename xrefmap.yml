@@ -25,134 +25,134 @@ references:
   commentId: F:Platform.Exceptions.Ensure.OnDebug
   fullName: Platform.Exceptions.Ensure.OnDebug
   nameWithType: Ensure.OnDebug
-- uid: Platform.Exceptions.EnsureAlwaysExtensions
-  name: EnsureAlwaysExtensions
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html
-  commentId: T:Platform.Exceptions.EnsureAlwaysExtensions
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions
-  nameWithType: EnsureAlwaysExtensions
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria*
+- uid: Platform.Exceptions.EnsureExtensions
+  name: EnsureExtensions
+  href: api/Platform.Exceptions.EnsureExtensions.html
+  commentId: T:Platform.Exceptions.EnsureExtensions
+  fullName: Platform.Exceptions.EnsureExtensions
+  nameWithType: EnsureExtensions
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria*
   name: ArgumentMeetsCriteria
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentMeetsCriteria_
-  commentId: Overload:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentMeetsCriteria_
+  commentId: Overload:Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria
   isSpec: "True"
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria
-  nameWithType: EnsureAlwaysExtensions.ArgumentMeetsCriteria
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0})
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria
+  nameWithType: EnsureExtensions.ArgumentMeetsCriteria
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0})
   name: ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_Predicate___0__
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0})
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_Predicate___0__
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0})
   name.vb: ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument))
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate<TArgument>)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate(Of TArgument))
-  nameWithType: EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument))
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate<TArgument>)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate(Of TArgument))
+  nameWithType: EnsureExtensions.ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>)
+  nameWithType.vb: EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument))
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String)
   name: ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_Predicate___0__System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_Predicate___0__System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String)
   name.vb: ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument), String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate<TArgument>, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument), String)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate<TArgument>, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String)
+  nameWithType: EnsureExtensions.ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>, String)
+  nameWithType.vb: EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument), String)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
   name: ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>, String, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_Predicate___0__System_String_System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_Predicate___0__System_String_System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
   name.vb: ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument), String, String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate<TArgument>, System.String, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String, System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>, String, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument), String, String)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0})
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate<TArgument>, System.String, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String, System.String)
+  nameWithType: EnsureExtensions.ArgumentMeetsCriteria<TArgument>(EnsureAlwaysExtensionRoot, TArgument, Predicate<TArgument>, String, String)
+  nameWithType.vb: EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, Predicate(Of TArgument), String, String)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0})
   name: ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_Predicate___0__
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0})
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_Predicate___0__
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0})
   name.vb: ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument))
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate<TArgument>)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate(Of TArgument))
-  nameWithType: EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument))
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate<TArgument>)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate(Of TArgument))
+  nameWithType: EnsureExtensions.ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>)
+  nameWithType.vb: EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument))
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String)
   name: ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_Predicate___0__System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_Predicate___0__System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String)
   name.vb: ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument), String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate<TArgument>, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument), String)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate<TArgument>, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String)
+  nameWithType: EnsureExtensions.ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>, String)
+  nameWithType.vb: EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument), String)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
   name: ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>, String, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_Predicate___0__System_String_System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentMeetsCriteria__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_Predicate___0__System_String_System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.Predicate{``0},System.String,System.String)
   name.vb: ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument), String, String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate<TArgument>, System.String, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String, System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>, String, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument), String, String)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull*
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate<TArgument>, System.String, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.Predicate(Of TArgument), System.String, System.String)
+  nameWithType: EnsureExtensions.ArgumentMeetsCriteria<TArgument>(EnsureOnDebugExtensionRoot, TArgument, Predicate<TArgument>, String, String)
+  nameWithType.vb: EnsureExtensions.ArgumentMeetsCriteria(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, Predicate(Of TArgument), String, String)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentNotNull*
   name: ArgumentNotNull
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentNotNull_
-  commentId: Overload:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentNotNull_
+  commentId: Overload:Platform.Exceptions.EnsureExtensions.ArgumentNotNull
   isSpec: "True"
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull
-  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentNotNull
+  nameWithType: EnsureExtensions.ArgumentNotNull
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0)
   name: ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0)
   name.vb: ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument)
-  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument)
+  nameWithType: EnsureExtensions.ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument)
+  nameWithType.vb: EnsureExtensions.ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String)
   name: ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String)
   name.vb: ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String,System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String)
+  nameWithType: EnsureExtensions.ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String)
+  nameWithType.vb: EnsureExtensions.ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String,System.String)
   name: ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_String_System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String,System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureAlwaysExtensionRoot___0_System_String_System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot,``0,System.String,System.String)
   name.vb: ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String, String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String, System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String, String)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot, TArgument, System.String, System.String)
+  nameWithType: EnsureExtensions.ArgumentNotNull<TArgument>(EnsureAlwaysExtensionRoot, TArgument, String, String)
+  nameWithType.vb: EnsureExtensions.ArgumentNotNull(Of TArgument)(EnsureAlwaysExtensionRoot, TArgument, String, String)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0)
   name: ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0)
   name.vb: ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument)
-  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument)
+  nameWithType: EnsureExtensions.ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument)
+  nameWithType.vb: EnsureExtensions.ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String)
   name: ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String)
   name.vb: ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, String)
-- uid: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String,System.String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String)
+  nameWithType: EnsureExtensions.ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument, String)
+  nameWithType.vb: EnsureExtensions.ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, String)
+- uid: Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String,System.String)
   name: ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument, String, String)
-  href: api/Platform.Exceptions.EnsureAlwaysExtensions.html#Platform_Exceptions_EnsureAlwaysExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_String_System_String_
-  commentId: M:Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String,System.String)
+  href: api/Platform.Exceptions.EnsureExtensions.html#Platform_Exceptions_EnsureExtensions_ArgumentNotNull__1_Platform_Exceptions_ExtensionRoots_EnsureOnDebugExtensionRoot___0_System_String_System_String_
+  commentId: M:Platform.Exceptions.EnsureExtensions.ArgumentNotNull``1(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot,``0,System.String,System.String)
   name.vb: ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, String, String)
-  fullName: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String, System.String)
-  fullName.vb: Platform.Exceptions.EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String, System.String)
-  nameWithType: EnsureAlwaysExtensions.ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument, String, String)
-  nameWithType.vb: EnsureAlwaysExtensions.ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, String, String)
+  fullName: Platform.Exceptions.EnsureExtensions.ArgumentNotNull<TArgument>(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String, System.String)
+  fullName.vb: Platform.Exceptions.EnsureExtensions.ArgumentNotNull(Of TArgument)(Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot, TArgument, System.String, System.String)
+  nameWithType: EnsureExtensions.ArgumentNotNull<TArgument>(EnsureOnDebugExtensionRoot, TArgument, String, String)
+  nameWithType.vb: EnsureExtensions.ArgumentNotNull(Of TArgument)(EnsureOnDebugExtensionRoot, TArgument, String, String)
 - uid: Platform.Exceptions.ExceptionExtensions
   name: ExceptionExtensions
   href: api/Platform.Exceptions.ExceptionExtensions.html
