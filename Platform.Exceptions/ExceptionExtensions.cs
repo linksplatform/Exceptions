@@ -67,9 +67,6 @@ namespace Platform.Exceptions
             sb.AppendLine(exception.StackTrace);
         }
 
-        private static void Indent(this StringBuilder sb, int level)
-        {
-            sb.Append('\t', level);
-        }
+        private static void Indent(this StringBuilder sb, int level) => sb.Append('\t', level);
     }
 }
