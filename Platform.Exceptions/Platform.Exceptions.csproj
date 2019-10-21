@@ -4,12 +4,12 @@
     <Description>LinksPlatform's Platform.Exceptions Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
-    <VersionPrefix>0.2.0</VersionPrefix>
+    <VersionPrefix>0.2.1</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks>net471;netstandard2.0;netstandard2.1</TargetFrameworks>
     <AssemblyName>Platform.Exceptions</AssemblyName>
     <PackageId>Platform.Exceptions</PackageId>
-    <PackageTags>LinksPlatform;Exceptions;Ensure;EnsureExtensions;Throw;ThrowExtensions;ExceptionExtensions;IgnoredExceptions;ExtensionRoots;EnsureAlwaysExtensionRoot;EnsureOnDebugExtensionRoot;ThrowExtensionRoot</PackageTags>
+    <PackageTags>LinksPlatform;Exceptions;Ensure;EnsureExtensions;ExceptionExtensions;IgnoredExceptions;Throw;ThrowExtensions;ExtensionRoots;EnsureAlwaysExtensionRoot;EnsureOnDebugExtensionRoot;ThrowExtensionRoot</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://linksplatform.github.io/Exceptions</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,15 +24,15 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Added support for net461 (.NET Framework 4.6.1).
-Arguments for EnsureAlwaysExtensions.ArgumentMeetsCriteria methods reordered. This is breaking change.
-Added missing comments.
-XML documentation file generation turned on.
-Tests added.
-Travis CI connected.
-Refactoring, issues fix.
-
-This release is not backward compatible with the previous 0.1.1 release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Lowest supported version of .NET Framework is now 4.7.1.
+Added support for .NET Standard 2.1 (.NET Core 3.0).
+Microsoft.NET.Test.Sdk dependency updated from 16.2.0 to 16.3.0.
+Better style of the generated string representation of the exception.
+Travis CI disabled.
+GitHub Actions enabled.
+Automatic NuGet publishing enabled.
+Source link enabled.
+Refactoring, issues fix.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition="$(TargetFramework.StartsWith('net4')) AND '$(MSBuildRuntimeType)' == 'Core' AND '$(OS)' != 'Windows_NT'">
