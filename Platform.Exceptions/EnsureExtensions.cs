@@ -11,7 +11,7 @@ namespace Platform.Exceptions
     /// <para>Provides a set of extension methods for <see cref="EnsureAlwaysExtensionRoot"/> and <see cref="EnsureOnDebugExtensionRoot"/> objects.</para>
     /// <para>Предоставляет набор методов расширения для объектов <see cref="EnsureAlwaysExtensionRoot"/> и <see cref="EnsureOnDebugExtensionRoot"/>.</para>
     /// </summary>
-    public static class EnsureAlwaysExtensions
+    public static class EnsureExtensions
     {
         #region Always
 
