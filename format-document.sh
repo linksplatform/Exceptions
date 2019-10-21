@@ -2,7 +2,8 @@
 set -e # Exit with nonzero exit code if anything fails
 
 # Remove auto-generated code files
-find ./obj -type f -iname "*.cs" -delete
+find "./Platform.$REPOSITORY_NAME/obj" -type f -iname "*.cs" -delete
+find "./Platform.$REPOSITORY_NAME.Tests/obj" -type f -iname "*.cs" -delete
 
 # Download fvextra package
 wget https://raw.githubusercontent.com/gpoore/fvextra/cc1c0c5f7b92023cfec67084e2a87bdac520414c/fvextra/fvextra.sty
@@ -41,7 +42,10 @@ printf """
 """
 
 # Project files
-find . -type f -iname '*.cs' | sort -b | python format-csharp-files.py
+find "./Platform.$REPOSITORY_NAME" -type f -iname '*.cs' | sort -b | python format-csharp-files.py
+
+# Tests files
+find "./Platform.$REPOSITORY_NAME.Tests" -type f -iname '*.cs' | sort -b | python format-csharp-files.py
 
 printf """
 \\\printindex
