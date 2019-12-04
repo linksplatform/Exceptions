@@ -3,10 +3,8 @@
     class Ensure
     {
     public:
-        static EnsureAlwaysExtensionRoot Always;
+        inline static EnsureAlwaysExtensionRoot Always;
 
-        static EnsureOnDebugExtensionRoot OnDebug;
+        inline static EnsureOnDebugExtensionRoot OnDebug;
     };
-    EnsureAlwaysExtensionRoot Ensure::Always;
-    EnsureOnDebugExtensionRoot Ensure::OnDebug;
 }

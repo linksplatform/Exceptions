@@ -3,7 +3,6 @@
     class Throw
     {
     public:
-        static ThrowExtensionRoot A;
+        inline static ThrowExtensionRoot A;
     };
-    ThrowExtensionRoot Throw::A;
 }

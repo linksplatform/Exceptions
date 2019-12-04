@@ -3,9 +3,9 @@
     class ExceptionExtensions
     {
     public:
-        static readonly char* ExceptionContentsSeparator = "---";
+        inline static const char* ExceptionContentsSeparator = "---";
 
-        static readonly char* ExceptionStringBuildingFailed = "Unable to format exception.";
+        inline static const char* ExceptionStringBuildingFailed = "Unable to format exception.";
 
         static void Ignore(Exception exception) { return IgnoredExceptions.RaiseExceptionIgnoredEvent(exception); }
 
