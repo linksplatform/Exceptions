@@ -3,17 +3,17 @@
     class IgnoredExceptions
     {
     public:
-        static readonly ConcurrentBag<Exception> _exceptionsBag = new ConcurrentBag<Exception>();
+        static readonly ConcurrentBag<std::exception> _exceptionsBag = new ConcurrentBag<std::exception>();
 
-        static event EventHandler<Exception> ExceptionIgnored = OnExceptionIgnored;
+        static event EventHandler<std::exception> ExceptionIgnored = OnExceptionIgnored;
 
-        static IReadOnlyCollection<Exception> CollectedGetExceptions() { return _exceptionsBag; }
+        static IReadOnlyCollection<std::exception> CollectedGetExceptions() { return _exceptionsBag; }
 
         static bool CollectExceptions { get; set; }
 
-        static void RaiseExceptionIgnoredEvent(Exception exception) { return ExceptionIgnored.Invoke(null, exception); }
+        static void RaiseExceptionIgnoredEvent(const std::exception& exception) { return ExceptionIgnored.Invoke(null, exception); }
 
-        static void OnExceptionIgnored(object sender, Exception exception)
+        static void OnExceptionIgnored(object sender, const std::exception& exception)
         {
             if (CollectExceptions)
             {
