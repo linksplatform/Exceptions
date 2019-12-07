@@ -7,7 +7,7 @@
 
         inline static const char* ExceptionStringBuildingFailed = "Unable to format exception.";
 
-        static void Ignore(const std::exception& exception) { return IgnoredExceptions.RaiseExceptionIgnoredEvent(exception); }
+        static void Ignore(const std::exception& exception) { IgnoredExceptions.RaiseExceptionIgnoredEvent(exception); }
 
         static char* ToStringWithAllInnerExceptions(const std::exception& exception)
         {
@@ -42,6 +42,6 @@
             sb.AppendLine(exception.StackTrace);
         }
 
-        static void Indent(StringBuilder sb, int level) { return sb.Append('\t', level); }
+        static void Indent(StringBuilder sb, int level) { sb.Append('\t', level); }
     };
 }
