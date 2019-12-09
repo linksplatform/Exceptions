@@ -7,7 +7,7 @@
 
         static event EventHandler<std::exception> ExceptionIgnored = OnExceptionIgnored;
 
-        static IReadOnlyCollection<std::exception> CollectedGetExceptions() { return _exceptionsBag; }
+        static IReadOnlyCollection<std::exception> GetCollectedExceptions() { return _exceptionsBag; }
 
         static bool CollectExceptions { get; set; }
 
