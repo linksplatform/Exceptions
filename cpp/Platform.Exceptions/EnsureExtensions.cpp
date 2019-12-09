@@ -3,8 +3,6 @@
     class EnsureExtensions
     {
     public:
-        #region Always
-
         template <typename TArgument> static void ArgumentNotNull(EnsureAlwaysExtensionRoot root, TArgument& argument, char* argumentName, char* message)
         {
             if (argument == null)
@@ -29,10 +27,6 @@
 
         template <typename TArgument> static void ArgumentMeetsCriteria(EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate) { ArgumentMeetsCriteria(root, argument, predicate, null); }
 
-        #endregion
-
-        #region OnDebug
-
         template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument& argument, char* argumentName, char* message) { Ensure.Always.ArgumentNotNull(argument, argumentName, message); }
 
         template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument& argument, char* argumentName) { Ensure.Always.ArgumentNotNull(argument, argumentName); }
@@ -44,7 +38,5 @@
         template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, char* argumentName) { Ensure.Always.ArgumentMeetsCriteria(argument, predicate, argumentName); }
 
         template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate) { Ensure.Always.ArgumentMeetsCriteria(argument, predicate); }
-
-        #endregion
     };
 }
