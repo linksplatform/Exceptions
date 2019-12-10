@@ -30,7 +30,7 @@
             sb.AppendLine(exception.Message);
             sb.Indent(level);
             sb.AppendLine(ExceptionContentsSeparator);
-            if (exception.InnerException != null)
+            if (exception.InnerException != NULL)
             {
                 sb.Indent(level);
                 sb.AppendLine("Inner exception: ");

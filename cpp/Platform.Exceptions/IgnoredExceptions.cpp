@@ -11,7 +11,7 @@
 
         static bool CollectExceptions { get; set; }
 
-        static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke(null, exception); }
+        static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke(NULL, exception); }
 
         static void OnExceptionIgnored(object sender, const std::exception& exception)
         {
