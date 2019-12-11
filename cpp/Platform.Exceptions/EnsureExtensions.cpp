@@ -11,7 +11,7 @@
             }
         }
 
-        template <typename TArgument> static void ArgumentNotNull(EnsureAlwaysExtensionRoot root, TArgument* argument, char* argumentName) { ArgumentNotNull(root, argument, argumentName, "Argument {argumentName} is null."); }
+        template <typename TArgument> static void ArgumentNotNull(EnsureAlwaysExtensionRoot root, TArgument* argument, char* argumentName) { ArgumentNotNull(root, argument, argumentName, ((std::string)"Argument ").append(argumentName).append(" is null.")); }
 
         template <typename TArgument> static void ArgumentNotNull(EnsureAlwaysExtensionRoot root, TArgument* argument) { ArgumentNotNull(root, argument, NULL); }
 
@@ -23,7 +23,7 @@
             }
         }
 
-        template <typename TArgument> static void ArgumentMeetsCriteria(EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, char* argumentName) { ArgumentMeetsCriteria(root, argument, predicate, argumentName, "Argument {argumentName} is does not meet criteria."); }
+        template <typename TArgument> static void ArgumentMeetsCriteria(EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, char* argumentName) { ArgumentMeetsCriteria(root, argument, predicate, argumentName, ((std::string)"Argument ").append(argumentName).append(" is does not meet criteria.")); }
 
         template <typename TArgument> static void ArgumentMeetsCriteria(EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate) { ArgumentMeetsCriteria(root, argument, predicate, NULL); }
 
