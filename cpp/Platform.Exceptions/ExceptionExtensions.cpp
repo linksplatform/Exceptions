@@ -9,7 +9,7 @@
 
         static void Ignore(const std::exception& exception) { IgnoredExceptions.RaiseExceptionIgnoredEvent(exception); }
 
-        static char* ToStringWithAllInnerExceptions(const std::exception& exception)
+        static const char* ToStringWithAllInnerExceptions(const std::exception& exception)
         {
             try
             {
