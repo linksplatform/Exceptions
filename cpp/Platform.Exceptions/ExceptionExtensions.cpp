@@ -13,9 +13,9 @@
         {
             try
             {
-                auto sb = new StringBuilder();
+                std::string sb;
                 sb.BuildExceptionString(exception, 0);
-                return sb.ToString();
+                return sb.data();
             }
             catch (const std::exception& ex)
             {
@@ -24,24 +24,24 @@
             }
         }
 
-        static void BuildExceptionString(StringBuilder sb, const std::exception& exception, int level)
+        static void BuildExceptionString(std::string& sb, const std::exception& exception, int level)
         {
             sb.Indent(level);
-            sb.AppendLine(exception.Message);
+            sb.append(exception.Message).append('\n');
             sb.Indent(level);
-            sb.AppendLine(ExceptionContentsSeparator);
+            sb.append(ExceptionContentsSeparator).append('\n');
             if (exception.InnerException != NULL)
             {
                 sb.Indent(level);
-                sb.AppendLine("Inner exception: ");
+                sb.append("Inner exception: ").append('\n');
                 sb.BuildExceptionString(exception.InnerException, level + 1);
             }
             sb.Indent(level);
-            sb.AppendLine(ExceptionContentsSeparator);
+            sb.append(ExceptionContentsSeparator).append('\n');
             sb.Indent(level);
-            sb.AppendLine(exception.StackTrace);
+            sb.append(exception.StackTrace).append('\n');
         }
 
-        static void Indent(StringBuilder sb, int level) { sb.Append('\t', level); }
+        static void Indent(std::string& sb, int level) { sb.append(level, '\t'); }
     };
 }
