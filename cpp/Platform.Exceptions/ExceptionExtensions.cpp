@@ -14,7 +14,7 @@
             try
             {
                 std::string sb;
-                sb.BuildExceptionString(exception, 0);
+                BuildExceptionString(sb, exception, 0);
                 return sb.data();
             }
             catch (const std::exception& ex)
@@ -26,19 +26,19 @@
 
         static void BuildExceptionString(std::string& sb, const std::exception& exception, int level)
         {
-            sb.Indent(level);
+            Indent(sb, level);
             sb.append(exception.Message).append('\n');
-            sb.Indent(level);
+            Indent(sb, level);
             sb.append(ExceptionContentsSeparator).append('\n');
             if (exception.InnerException != NULL)
             {
-                sb.Indent(level);
+                Indent(sb, level);
                 sb.append("Inner exception: ").append('\n');
-                sb.BuildExceptionString(exception.InnerException, level + 1);
+                BuildExceptionString(sb, exception.InnerException, level + 1);
             }
-            sb.Indent(level);
+            Indent(sb, level);
             sb.append(ExceptionContentsSeparator).append('\n');
-            sb.Indent(level);
+            Indent(sb, level);
             sb.append(exception.StackTrace).append('\n');
         }
 
