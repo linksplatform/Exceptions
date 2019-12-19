@@ -9,7 +9,7 @@
 
         static IReadOnlyCollection<std::exception> GetCollectedExceptions() { return _exceptionsBag; }
 
-        static bool CollectExceptions { get; set; }
+        static bool CollectExceptions;
 
         static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke(NULL, exception); }
 
