@@ -2,9 +2,8 @@
 {
     class Ensure
     {
-    public:
-        inline static EnsureAlwaysExtensionRoot Always;
+        public: inline static EnsureAlwaysExtensionRoot Always;
 
-        inline static EnsureOnDebugExtensionRoot OnDebug;
+        public: inline static EnsureOnDebugExtensionRoot OnDebug;
     };
 }

@@ -2,14 +2,13 @@
 {
     class ExceptionExtensions
     {
-    public:
-        inline static const char* ExceptionContentsSeparator = "---";
+        public: inline static const char* ExceptionContentsSeparator = "---";
 
-        inline static const char* ExceptionStringBuildingFailed = "Unable to format exception.";
+        public: inline static const char* ExceptionStringBuildingFailed = "Unable to format exception.";
 
-        static void Ignore(const std::exception& exception) { IgnoredExceptions.RaiseExceptionIgnoredEvent(exception); }
+        public: static void Ignore(const std::exception& exception) { IgnoredExceptions.RaiseExceptionIgnoredEvent(exception); }
 
-        static const char* ToStringWithAllInnerExceptions(const std::exception& exception)
+        public: static const char* ToStringWithAllInnerExceptions(const std::exception& exception)
         {
             try
             {
@@ -24,7 +23,7 @@
             }
         }
 
-        static void BuildExceptionString(std::string& sb, const std::exception& exception, int level)
+        private: static void BuildExceptionString(std::string& sb, const std::exception& exception, int level)
         {
             Indent(sb, level);
             sb.append(exception.Message).append('\n');
@@ -42,6 +41,6 @@
             sb.append(exception.StackTrace).append('\n');
         }
 
-        static void Indent(std::string& sb, int level) { sb.append(level, '\t'); }
+        private: static void Indent(std::string& sb, int level) { sb.append(level, '\t'); }
     };
 }
