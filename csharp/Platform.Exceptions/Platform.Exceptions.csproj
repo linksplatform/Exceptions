@@ -48,7 +48,7 @@ Refactoring, issues fix.</PackageReleaseNotes>
   </ItemGroup>
 
   <Target Name="CSharpFilesTransform" BeforeTargets="BeforeBuild" Condition="'$(OS)' == 'Windows_NT' AND $(TargetFramework) == 'netstandard2.1'">
-    <Exec WorkingDirectory="$(ProjectDir)" IgnoreExitCode="true" Command="..\CSharpToCppTranslator\bin\$(Configuration)\netcoreapp3.0\CSharpToCppTranslator.exe &quot;%(CSharpFiles.Identity)&quot; $(SolutionDir)cpp\Platform.Exceptions\" />
+    <Exec WorkingDirectory="$(ProjectDir)" IgnoreExitCode="true" Command="..\..\CSharpToCppTranslator\bin\$(Configuration)\netcoreapp3.0\CSharpToCppTranslator.exe &quot;%(CSharpFiles.Identity)&quot; $(SolutionDir)cpp\Platform.Exceptions\" />
   </Target>
 
 </Project>
