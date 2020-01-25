@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Exceptions", "Platform.Exceptions\Platform.Exceptions.csproj", "{94A89421-3053-41A9-B0C5-ED1308631614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Exceptions", "csharp\Platform.Exceptions\Platform.Exceptions.csproj", "{94A89421-3053-41A9-B0C5-ED1308631614}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E} = {C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Exceptions.Tests", "Platform.Exceptions.Tests\Platform.Exceptions.Tests.csproj", "{1B2D5587-35A6-42B4-A3DA-271AEFBD4DDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Exceptions.Tests", "csharp\Platform.Exceptions.Tests\Platform.Exceptions.Tests.csproj", "{1B2D5587-35A6-42B4-A3DA-271AEFBD4DDD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpToCppTranslator", "CSharpToCppTranslator\CSharpToCppTranslator.csproj", "{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}"
 EndProject
