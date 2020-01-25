@@ -12,7 +12,7 @@
 
         public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke(NULL, exception); }
 
-        private: static void OnExceptionIgnored(object sender, const std::exception& exception)
+        private: static void OnExceptionIgnored(void *sender, const std::exception& exception)
         {
             if (CollectExceptions)
             {
