@@ -4,8 +4,6 @@
     {
         private: static readonly ConcurrentBag<std::exception> _exceptionsBag = new ConcurrentBag<std::exception>();
 
-        public: static event EventHandler<std::exception> ExceptionIgnored = OnExceptionIgnored;
-
         public: static IReadOnlyCollection<std::exception> GetCollectedExceptions() { return _exceptionsBag; }
 
         public: static bool CollectExceptions;
@@ -18,6 +16,7 @@
             {
                 _exceptionsBag.Add(exception);
             }
-        }
+        }
+        public: static inline Platform::Delegates::MulticastDelegate<void(void*, const std::exception&)> ExceptionIgnored = OnExceptionIgnored;
     };
 }
