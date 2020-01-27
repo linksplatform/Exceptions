@@ -8,7 +8,7 @@
 
         public: static bool CollectExceptions;
 
-        public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke(NULL, exception); }
+        public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke(nullptr, exception); }
 
         private: static void OnExceptionIgnored(void *sender, const std::exception& exception)
         {
@@ -16,7 +16,8 @@
             {
                 _exceptionsBag.Add(exception);
             }
-        }
+        }
+
         public: static inline Platform::Delegates::MulticastDelegate<void(void*, const std::exception&)> ExceptionIgnored = OnExceptionIgnored;
     };
 }

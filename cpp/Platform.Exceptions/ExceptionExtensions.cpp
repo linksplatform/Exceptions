@@ -29,7 +29,7 @@
             sb.append(exception.Message).append('\n');
             Indent(sb, level);
             sb.append(ExceptionContentsSeparator).append('\n');
-            if (exception.InnerException != NULL)
+            if (exception.InnerException != nullptr)
             {
                 Indent(sb, level);
                 sb.append("Inner exception: ").append('\n');
