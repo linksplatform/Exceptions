@@ -26,16 +26,16 @@
 
         public: template <typename TArgument> static void ArgumentMeetsCriteria(EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate) { ArgumentMeetsCriteria(root, argument, predicate, nullptr); }
 
-        public: template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument* argument, const char* argumentName, const char* message) { Ensure.Always.ArgumentNotNull(argument, argumentName, message); }
+        public: template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument* argument, const char* argumentName, const char* message) { Platform::Exceptions::EnsureExtensions::ArgumentNotNull(Ensure::Always, argument, argumentName, message); }
 
-        public: template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument* argument, const char* argumentName) { Ensure.Always.ArgumentNotNull(argument, argumentName); }
+        public: template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument* argument, const char* argumentName) { Platform::Exceptions::EnsureExtensions::ArgumentNotNull(Ensure::Always, argument, argumentName); }
 
-        public: template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument* argument) { Ensure.Always.ArgumentNotNull(argument); }
+        public: template <typename TArgument> static void ArgumentNotNull(EnsureOnDebugExtensionRoot root, TArgument* argument) { Platform::Exceptions::EnsureExtensions::ArgumentNotNull(Ensure::Always, argument); }
 
-        public: template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, const char* argumentName, const char* message) { Ensure.Always.ArgumentMeetsCriteria(argument, predicate, argumentName, message); }
+        public: template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, const char* argumentName, const char* message) { Platform::Exceptions::EnsureExtensions::ArgumentMeetsCriteria(Ensure::Always, argument, predicate, argumentName, message); }
 
-        public: template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, const char* argumentName) { Ensure.Always.ArgumentMeetsCriteria(argument, predicate, argumentName); }
+        public: template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, const char* argumentName) { Platform::Exceptions::EnsureExtensions::ArgumentMeetsCriteria(Ensure::Always, argument, predicate, argumentName); }
 
-        public: template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate) { Ensure.Always.ArgumentMeetsCriteria(argument, predicate); }
+        public: template <typename TArgument> static void ArgumentMeetsCriteria(EnsureOnDebugExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate) { Platform::Exceptions::EnsureExtensions::ArgumentMeetsCriteria(Ensure::Always, argument, predicate); }
     };
 }
