@@ -2,9 +2,11 @@
 {
     class IgnoredExceptions
     {
-        private: static readonly ConcurrentBag<std::exception> _exceptionsBag = new ConcurrentBag<std::exception>();
+        private: static std::mutex _exceptionsBag_mutex;
 
-        public: static IReadOnlyCollection<std::exception> GetCollectedExceptions() { return _exceptionsBag; }
+        private: static std::vector<std::exception> _exceptionsBag;
+
+        public: static std::vector<std::exception> GetCollectedExceptions() { std::lock_guard<std::mutex> guard(_exceptionsBag_mutex); return std::vector<std::exception>(_exceptionsBag); }
 
         public: static bool CollectExceptions;
 
@@ -14,7 +16,8 @@
         {
             if (CollectExceptions)
             {
-                _exceptionsBag.Add(exception);
+                std::lock_guard<std::mutex> guard(_exceptionsBag_mutex);
+                _exceptionsBag.push_back(exception);
             }
         }
 
