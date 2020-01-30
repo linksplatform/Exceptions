@@ -8,7 +8,7 @@
 
         public: static bool CollectExceptions;
 
-        public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke(nullptr, exception); }
+        public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored(nullptr, exception); }
 
         private: static void OnExceptionIgnored(void *sender, const std::exception& exception)
         {
