@@ -26,7 +26,7 @@
         private: static void BuildExceptionString(std::string& sb, const std::exception& exception, int level)
         {
             Indent(sb, level);
-            sb.append(exception.what()).append('\n');
+            sb.append(exception.what()).append(1, '\n');
         }
 
         private: static void Indent(std::string& sb, int level) { sb.append(level, '\t'); }
