@@ -6,7 +6,7 @@
 
         public: inline static const char* ExceptionStringBuildingFailed = "Unable to format exception.";
 
-        public: static void Ignore(const std::exception& exception) { IgnoredExceptions.RaiseExceptionIgnoredEvent(exception); }
+        public: static void Ignore(const std::exception& exception) { IgnoredExceptions::RaiseExceptionIgnoredEvent(exception); }
 
         public: static const char* ToStringWithAllInnerExceptions(const std::exception& exception)
         {
@@ -18,7 +18,7 @@
             }
             catch (const std::exception& ex)
             {
-                ex.Ignore();
+                Platform::Exceptions::ExceptionExtensions::Ignore(ex);
                 return ExceptionStringBuildingFailed;
             }
         }
@@ -27,18 +27,6 @@
         {
             Indent(sb, level);
             sb.append(exception.Message).append('\n');
-            Indent(sb, level);
-            sb.append(ExceptionContentsSeparator).append('\n');
-            if (exception.InnerException != nullptr)
-            {
-                Indent(sb, level);
-                sb.append("Inner exception: ").append('\n');
-                BuildExceptionString(sb, exception.InnerException, level + 1);
-            }
-            Indent(sb, level);
-            sb.append(ExceptionContentsSeparator).append('\n');
-            Indent(sb, level);
-            sb.append(exception.StackTrace).append('\n');
         }
 
         private: static void Indent(std::string& sb, int level) { sb.append(level, '\t'); }
