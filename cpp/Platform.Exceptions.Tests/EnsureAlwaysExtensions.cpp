@@ -2,7 +2,7 @@
 {
     class EnsureAlwaysExtensions
     {
-        public: template <typename TArgument> static void ArgumentNotNull(EnsureAlwaysExtensionRoot root, TArgument* argument, const char* argumentName)
+        public: template <typename TArgument> static void ArgumentNotNull(Platform::Exceptions::ExtensionRoots::EnsureAlwaysExtensionRoot root, TArgument* argument, const char* argumentName)
         {
         }
     };

@@ -2,6 +2,6 @@
 {
     class Throw
     {
-        public: inline static ThrowExtensionRoot A;
+        public: inline static Platform::Exceptions::ExtensionRoots::ThrowExtensionRoot A;
     };
 }

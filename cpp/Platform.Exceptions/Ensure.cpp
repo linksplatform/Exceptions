@@ -2,8 +2,8 @@
 {
     class Ensure
     {
-        public: inline static EnsureAlwaysExtensionRoot Always;
+        public: inline static Platform::Exceptions::ExtensionRoots::EnsureAlwaysExtensionRoot Always;
 
-        public: inline static EnsureOnDebugExtensionRoot OnDebug;
+        public: inline static Platform::Exceptions::ExtensionRoots::EnsureOnDebugExtensionRoot OnDebug;
     };
 }
