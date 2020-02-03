@@ -4,7 +4,7 @@
     {
         public: TEST_METHOD(ArgumentNotNullEnsuranceTest)
         {
-            Assert.Throws<ArgumentNullException>(() { return Ensure.Always.ArgumentNotNull<object>(nullptr; }, "object"));
+            Assert.Throws<ArgumentNullException>([&]()-> auto { return Ensure.Always.ArgumentNotNull<object>(nullptr, "object"); });
         }
     };
 }
