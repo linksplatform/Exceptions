@@ -4,6 +4,7 @@
 #define Platform_Interfaces
 
 #include <vector>
+#include <mutex>
 #include <functional>
 
 #include <Platform.Delegates.h>
