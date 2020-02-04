@@ -2,13 +2,13 @@
 {
     class IgnoredExceptions
     {
-        private: static std::mutex _exceptionsBag_mutex;
+        private: inline static std::mutex _exceptionsBag_mutex;
 
-        private: static std::vector<std::exception> _exceptionsBag;
+        private: inline static std::vector<std::exception> _exceptionsBag;
 
         public: static std::vector<std::exception> GetCollectedExceptions() { std::lock_guard<std::mutex> guard(_exceptionsBag_mutex); return std::vector<std::exception>(_exceptionsBag); }
 
-        public: static bool CollectExceptions;
+        public: inline static bool CollectExceptions;
 
         public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored(nullptr, exception); }
 
