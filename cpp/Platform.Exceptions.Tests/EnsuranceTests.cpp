@@ -4,7 +4,7 @@
     {
         public: TEST_METHOD(ArgumentNotNullEnsuranceTest)
         {
-            Assert.Throws<ArgumentNullException>([&]()-> auto { return Ensure.Always.ArgumentNotNull<object>(nullptr, "object"); });
+            Assert::ExpectException<std::invalid_argument>([&]()-> auto { return Ensure.Always.ArgumentNotNull<void*>(nullptr, "object"); });
         }
     };
 }

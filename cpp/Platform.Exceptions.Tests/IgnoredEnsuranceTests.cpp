@@ -4,7 +4,7 @@
     {
         public: TEST_METHOD(EnsuranceIgnoredTest)
         {
-            Ensure.Always.ArgumentNotNull<object>(nullptr, "object");
+            Ensure.Always.ArgumentNotNull<void*>(nullptr, "object");
         }
     };
 }
