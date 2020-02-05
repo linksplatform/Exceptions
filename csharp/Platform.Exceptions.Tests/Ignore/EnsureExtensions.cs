@@ -3,7 +3,7 @@ using Platform.Exceptions.ExtensionRoots;
 
 namespace Platform.Exceptions.Tests.Ignore
 {
-    public static class EnsureAlwaysExtensions
+    public static class EnsureExtensions
     {
         [Conditional("DEBUG")]
         public static void ArgumentNotNull<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, string argumentName)

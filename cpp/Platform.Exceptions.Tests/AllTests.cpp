@@ -2,5 +2,5 @@
 #include "CppUnitTest.h"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 #include "EnsuranceTests.cpp"
-#include "EnsureAlwaysExtensions.cpp"
+#include "EnsureExtensions.cpp"
 #include "IgnoredEnsuranceTests.cpp"
