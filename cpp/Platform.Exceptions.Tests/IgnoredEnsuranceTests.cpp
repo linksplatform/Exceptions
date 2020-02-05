@@ -4,7 +4,7 @@
     {
         public: TEST_METHOD(EnsuranceIgnoredTest)
         {
-            Ensure.Always.ArgumentNotNull<void*>(nullptr, "object");
+            Platform::Exceptions::EnsureExtensions::ArgumentNotNull<void*>(Ensure::Always, nullptr, "object");
         }
     };
 }
