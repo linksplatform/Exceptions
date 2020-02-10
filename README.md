@@ -1,7 +1,10 @@
-[![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions)](https://www.nuget.org/packages/Platform.Exceptions)
 [![Actions Status](https://github.com/linksplatform/Exceptions/workflows/CD/badge.svg)](https://github.com/linksplatform/Exceptions/actions?workflow=CD)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/30c1607451704a48957f5f91fab1431a)](https://app.codacy.com/app/drakonard/Exceptions?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Exceptions&utm_campaign=Badge_Grade_Dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/exceptions/badge)](https://www.codefactor.io/repository/github/linksplatform/exceptions)
+
+| [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions)](https://www.nuget.org/packages/Platform.Exceptions) | C# |
+|-|-|
+| [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions.TemplateLibrary)](https://www.nuget.org/packages/Platform.Exceptions.TemplateLibrary)  | __C++__  |
 
 # [Exceptions](https://github.com/linksplatform/Exceptions)
 
