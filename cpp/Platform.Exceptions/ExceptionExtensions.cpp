@@ -23,12 +23,12 @@
             }
         }
 
-        private: static void BuildExceptionString(std::string& sb, const std::exception& exception, int level)
+        private: static void BuildExceptionString(std::string& sb, const std::exception& exception, std::int32_t level)
         {
             Indent(sb, level);
             sb.append(exception.what()).append(1, '\n');
         }
 
-        private: static void Indent(std::string& sb, int level) { sb.append(level, '\t'); }
+        private: static void Indent(std::string& sb, std::int32_t level) { sb.append(level, '\t'); }
     };
 }
