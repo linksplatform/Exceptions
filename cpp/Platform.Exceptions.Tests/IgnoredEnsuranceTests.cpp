@@ -4,7 +4,7 @@
     {
         public: TEST_METHOD(EnsuranceIgnoredTest)
         {
-            Platform::Exceptions::EnsureExtensions::ArgumentNotNull<void*>(Ensure::Always, nullptr, "object");
+            Platform::Exceptions::EnsureExtensions::ArgumentNotNull<void*>(Platform::Exceptions::Ensure::Always, nullptr, "object");
         }
     };
 }
