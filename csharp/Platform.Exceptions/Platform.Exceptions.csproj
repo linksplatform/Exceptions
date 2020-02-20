@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
     <VersionPrefix>0.2.1</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFrameworks>net471;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net472;netstandard2.0;netstandard2.1</TargetFrameworks>
     <AssemblyName>Platform.Exceptions</AssemblyName>
     <PackageId>Platform.Exceptions</PackageId>
     <PackageTags>LinksPlatform;Exceptions;Ensure;EnsureExtensions;ExceptionExtensions;IgnoredExceptions;Throw;ThrowExtensions;ExtensionRoots;EnsureAlwaysExtensionRoot;EnsureOnDebugExtensionRoot;ThrowExtensionRoot</PackageTags>
@@ -24,15 +24,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Lowest supported version of .NET Framework is now 4.7.1.
-Added support for .NET Standard 2.1 (.NET Core 3.0).
-Microsoft.NET.Test.Sdk dependency updated from 16.2.0 to 16.3.0.
-Better style of the generated string representation of the exception.
-Travis CI disabled.
-GitHub Actions enabled.
-Automatic NuGet publishing enabled.
-Source link enabled.
-Refactoring, issues fix.</PackageReleaseNotes>
+    <PackageReleaseNotes>Lowest supported version of .NET Framework is now 4.7.2.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition="$(TargetFramework.StartsWith('net4')) AND '$(MSBuildRuntimeType)' == 'Core' AND '$(OS)' != 'Windows_NT'">
