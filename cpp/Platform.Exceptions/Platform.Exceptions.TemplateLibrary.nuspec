@@ -5,9 +5,8 @@
     <title>LinksPlatform's Platform.Exceptions Template Library</title>
     <summary>LinksPlatform's Platform.Exceptions is a Template Library what contains abstract class templates.</summary>
     <description>LinksPlatform's Platform.Exceptions is a Template Library what contains set of C++ abstract class templates. Use Platform.Exceptions.h file to include the library.</description>
-    <releaseNotes>File structure updated.
-Files extensions fix.</releaseNotes>
-    <version>0.0.4</version>
+    <releaseNotes>Package simplification.</releaseNotes>
+    <version>0.0.5</version>
     <authors>Konstantin Diachenko</authors>
     <owners>Konstantin Diachenko</owners>
     <copyright>Konstantin Diachenko</copyright>
@@ -22,16 +21,16 @@ Files extensions fix.</releaseNotes>
     </dependencies>
   </metadata>
   <files>
-    <file src="build\native\Platform.Exceptions.TemplateLibrary.targets" target="build\native\Platform.Exceptions.TemplateLibrary.targets" />
-    <file src="..\ExtensionRoots\EnsureAlwaysExtensionRoot.h" target="lib\native\include\ExtensionRoots\EnsureAlwaysExtensionRoot.h" />
-	<file src="..\ExtensionRoots\EnsureOnDebugExtensionRoot.h" target="lib\native\include\ExtensionRoots\EnsureOnDebugExtensionRoot.h" />
-	<file src="..\ExtensionRoots\ThrowExtensionRoot.h" target="lib\native\include\ExtensionRoots\ThrowExtensionRoot.h" />
-	<file src="..\Platform.Exceptions.h" target="lib\native\include\Platform.Exceptions.h" />
-    <file src="..\Ensure.h" target="lib\native\include\Ensure.h" />
-    <file src="..\EnsureExtensions.h" target="lib\native\include\EnsureExtensions.h" />
-    <file src="..\ExceptionExtensions.h" target="lib\native\include\ExceptionExtensions.h" />
-    <file src="..\IgnoredExceptions.h" target="lib\native\include\IgnoredExceptions.h" />
-    <file src="..\Throw.h" target="lib\native\include\Throw.h" />
-    <file src="..\ThrowExtensions.h" target="lib\native\include\ThrowExtensions.h" />
+    <file src="Platform.Exceptions.TemplateLibrary.targets" target="build\native\Platform.Exceptions.TemplateLibrary.targets" />
+    <file src="ExtensionRoots\EnsureAlwaysExtensionRoot.h" target="lib\native\include\ExtensionRoots\EnsureAlwaysExtensionRoot.h" />
+	<file src="ExtensionRoots\EnsureOnDebugExtensionRoot.h" target="lib\native\include\ExtensionRoots\EnsureOnDebugExtensionRoot.h" />
+	<file src="ExtensionRoots\ThrowExtensionRoot.h" target="lib\native\include\ExtensionRoots\ThrowExtensionRoot.h" />
+	<file src="Platform.Exceptions.h" target="lib\native\include\Platform.Exceptions.h" />
+    <file src="Ensure.h" target="lib\native\include\Ensure.h" />
+    <file src="EnsureExtensions.h" target="lib\native\include\EnsureExtensions.h" />
+    <file src="ExceptionExtensions.h" target="lib\native\include\ExceptionExtensions.h" />
+    <file src="IgnoredExceptions.h" target="lib\native\include\IgnoredExceptions.h" />
+    <file src="Throw.h" target="lib\native\include\Throw.h" />
+    <file src="ThrowExtensions.h" target="lib\native\include\ThrowExtensions.h" />
   </files>
 </package>
