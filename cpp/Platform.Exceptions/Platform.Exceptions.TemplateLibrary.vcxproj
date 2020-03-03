@@ -142,8 +142,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Ensure.h" />
+    <ClInclude Include="EnsureAlwaysExtensionRoot.h" />
+    <ClInclude Include="EnsureExtensions.h" />
+    <ClInclude Include="EnsureOnDebugExtensionRoot.h" />
+    <ClInclude Include="ExceptionExtensions.h" />
+    <ClInclude Include="IgnoredExceptions.h" />
+    <ClInclude Include="Platform.Exceptions.h" />
+    <ClInclude Include="Throw.h" />
+    <ClInclude Include="ThrowExtensionRoot.h" />
+    <ClInclude Include="ThrowExtensions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\packages\Platform.Delegates.TemplateLibrary.0.0.2\build\native\Platform.Delegates.TemplateLibrary.targets" Condition="Exists('..\..\packages\Platform.Delegates.TemplateLibrary.0.0.2\build\native\Platform.Delegates.TemplateLibrary.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Platform.Delegates.TemplateLibrary.0.0.2\build\native\Platform.Delegates.TemplateLibrary.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Platform.Delegates.TemplateLibrary.0.0.2\build\native\Platform.Delegates.TemplateLibrary.targets'))" />
+  </Target>
 </Project>

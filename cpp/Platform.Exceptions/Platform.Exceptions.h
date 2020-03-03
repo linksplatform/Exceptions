@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef Platform_Interfaces
-#define Platform_Interfaces
+#ifndef Platform_Exceptions
+#define Platform_Exceptions
 
 #include <vector>
 #include <mutex>
@@ -9,14 +9,14 @@
 
 #include <Platform.Delegates.h>
 
-#include "EnsureAlwaysExtensionRoot.cpp"
-#include "EnsureOnDebugExtensionRoot.cpp"
-#include "Ensure.cpp"
-#include "EnsureExtensions.cpp"
-#include "IgnoredExceptions.cpp"
-#include "ExceptionExtensions.cpp"
-#include "ThrowExtensionRoot.cpp"
-#include "Throw.cpp"
-#include "ThrowExtensions.cpp"
+#include "EnsureAlwaysExtensionRoot.h"
+#include "EnsureOnDebugExtensionRoot.h"
+#include "Ensure.h"
+#include "EnsureExtensions.h"
+#include "IgnoredExceptions.h"
+#include "ExceptionExtensions.h"
+#include "ThrowExtensionRoot.h"
+#include "Throw.h"
+#include "ThrowExtensions.h"
 
-#endif // Platform_Collections_Methods
+#endif
