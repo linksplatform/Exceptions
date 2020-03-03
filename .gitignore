@@ -334,3 +334,4 @@ ASALocalRun/
 
 # Code translation
 *.AssemblyInfo.cpp
+*.AssemblyInfo.h
