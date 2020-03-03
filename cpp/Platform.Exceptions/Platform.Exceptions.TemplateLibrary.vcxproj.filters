@@ -18,13 +18,7 @@
     <ClInclude Include="Ensure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EnsureAlwaysExtensionRoot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="EnsureExtensions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EnsureOnDebugExtensionRoot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ExceptionExtensions.h">
@@ -39,10 +33,16 @@
     <ClInclude Include="Throw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ThrowExtensionRoot.h">
+    <ClInclude Include="ThrowExtensions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ThrowExtensions.h">
+    <ClInclude Include="ExtensionRoots\EnsureAlwaysExtensionRoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionRoots\EnsureOnDebugExtensionRoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionRoots\ThrowExtensionRoot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

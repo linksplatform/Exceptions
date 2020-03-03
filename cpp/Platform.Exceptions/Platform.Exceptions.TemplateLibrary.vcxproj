@@ -143,14 +143,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Ensure.h" />
-    <ClInclude Include="EnsureAlwaysExtensionRoot.h" />
     <ClInclude Include="EnsureExtensions.h" />
-    <ClInclude Include="EnsureOnDebugExtensionRoot.h" />
     <ClInclude Include="ExceptionExtensions.h" />
+    <ClInclude Include="ExtensionRoots\EnsureAlwaysExtensionRoot.h" />
+    <ClInclude Include="ExtensionRoots\EnsureOnDebugExtensionRoot.h" />
+    <ClInclude Include="ExtensionRoots\ThrowExtensionRoot.h" />
     <ClInclude Include="IgnoredExceptions.h" />
     <ClInclude Include="Platform.Exceptions.h" />
     <ClInclude Include="Throw.h" />
-    <ClInclude Include="ThrowExtensionRoot.h" />
     <ClInclude Include="ThrowExtensions.h" />
   </ItemGroup>
   <ItemGroup>
