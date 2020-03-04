@@ -5,12 +5,12 @@
     <title>LinksPlatform's Platform.Exceptions Template Library</title>
     <summary>LinksPlatform's Platform.Exceptions is a Template Library what contains abstract class templates.</summary>
     <description>LinksPlatform's Platform.Exceptions is a Template Library what contains set of C++ abstract class templates. Use Platform.Exceptions.h file to include the library.</description>
-    <releaseNotes>Second
+    <releaseNotes>Third
 Multi-line
 release
 notes
 test.</releaseNotes>
-    <version>0.0.7</version>
+    <version>0.0.8</version>
     <authors>Konstantin Diachenko</authors>
     <owners>Konstantin Diachenko</owners>
     <copyright>Konstantin Diachenko</copyright>
