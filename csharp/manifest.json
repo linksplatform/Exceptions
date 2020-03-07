@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.Ensure.html",
-          "hash": "xagpK1DJXByC+z/6jDxQ9Q=="
+          "hash": "bP7bUux0pJEZxrRM+ApQqA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.EnsureExtensions.html",
-          "hash": "IwtMB9XFK9yIotEXzYD7vw=="
+          "hash": "ATBNR8Hply7ANOymqL71HA=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExceptionExtensions.html",
-          "hash": "7tNHU0RxcuaTNwjc7Mf7sQ=="
+          "hash": "VysLjuqtQv7zrCw5Lc3xZA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot.html",
-          "hash": "te+8Ii6Rh+F/zIQyM6w6VA=="
+          "hash": "WMJyCfXU/RV/WiWQI4B87g=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot.html",
-          "hash": "bRY3GzImH0hhIfZFm1TrZQ=="
+          "hash": "lk/HTXRfYtaAUczY2iOytw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot.html",
-          "hash": "XD8v+4unH0VliSCYqP41jQ=="
+          "hash": "5h3c6GurBLIG6NBSy8/Umg=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.IgnoredExceptions.html",
-          "hash": "6P6HDqPuD2HEgYQnXSMI6w=="
+          "hash": "MHE7VqqpFBoqCJx/bWCnow=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.Throw.html",
-          "hash": "LfE4P/9miR2VPE4OQF/avA=="
+          "hash": "qib7vGL78x8wSKIkIzuaQw=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Exceptions.ThrowExtensions.html",
-          "hash": "bs0gcx3uVdgyd+aK57nKkA=="
+          "hash": "T0YRTZ8nwHKy9PhMiIVPAw=="
         }
       },
       "is_incremental": false,
