@@ -1,6 +1,6 @@
 ﻿namespace Platform::Exceptions::Tests
 {
-    TEST_CLASS(Ensurance)
+    TEST_CLASS(EnsuranceTests)
     {
         public: TEST_METHOD(ArgumentNotNullEnsuranceTest)
         {

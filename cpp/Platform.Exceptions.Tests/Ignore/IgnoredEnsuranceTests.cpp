@@ -1,6 +1,6 @@
 ﻿namespace Platform::Exceptions::Tests::Ignore
 {
-    TEST_CLASS(IgnoredEnsurance)
+    TEST_CLASS(IgnoredEnsuranceTests)
     {
         public: TEST_METHOD(EnsuranceIgnoredTest)
         {
