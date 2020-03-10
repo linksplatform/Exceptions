@@ -2,19 +2,19 @@
 {
     class ExceptionExtensions
     {
-        public: inline static const char* ExceptionContentsSeparator = "---";
+        public: inline static std::string ExceptionContentsSeparator = "---";
 
-        public: inline static const char* ExceptionStringBuildingFailed = "Unable to format exception.";
+        public: inline static std::string ExceptionStringBuildingFailed = "Unable to format exception.";
 
         public: static void Ignore(const std::exception& exception) { IgnoredExceptions::RaiseExceptionIgnoredEvent(exception); }
 
-        public: static const char* ToStringWithAllInnerExceptions(const std::exception& exception)
+        public: static std::string ToStringWithAllInnerExceptions(const std::exception& exception)
         {
             try
             {
                 std::string sb;
                 BuildExceptionString(sb, exception, 0);
-                return sb.data();
+                return sb;
             }
             catch (const std::exception& ex)
             {
