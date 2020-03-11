@@ -84,7 +84,7 @@ namespace Platform.Exceptions
         /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argumentName"><para>The argument's name.</para><para>Имя аргумента.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName) => ArgumentMeetsCriteria(root, argument, predicate, argumentName, $"Argument {argumentName} is does not meet criteria.");
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName) => ArgumentMeetsCriteria(root, argument, predicate, argumentName, $"Argument {argumentName} does not meet the criteria.");
 
         /// <summary>
         /// <para>Ensures that the argument meets the criteria. This check is performed regardless of the build configuration.</para>
