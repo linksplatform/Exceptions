@@ -22,7 +22,7 @@
             }
         }
 
-        public: template <typename TArgument> static void ArgumentMeetsCriteria(Platform::Exceptions::ExtensionRoots::EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, std::string argumentName) { ArgumentMeetsCriteria(root, argument, predicate, argumentName, std::string("Argument ").append(argumentName).append(" is does not meet criteria.")); }
+        public: template <typename TArgument> static void ArgumentMeetsCriteria(Platform::Exceptions::ExtensionRoots::EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate, std::string argumentName) { ArgumentMeetsCriteria(root, argument, predicate, argumentName, std::string("Argument ").append(argumentName).append(" does not meet the criteria.")); }
 
         public: template <typename TArgument> static void ArgumentMeetsCriteria(Platform::Exceptions::ExtensionRoots::EnsureAlwaysExtensionRoot root, TArgument argument, std::function<bool(TArgument)> predicate) { ArgumentMeetsCriteria(root, argument, predicate, {}); }
 
