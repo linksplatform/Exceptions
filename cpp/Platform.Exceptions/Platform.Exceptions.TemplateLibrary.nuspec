@@ -5,8 +5,8 @@
     <title>LinksPlatform's Platform.Exceptions Template Library</title>
     <summary>LinksPlatform's Platform.Exceptions is a Template Library what contains abstract class templates.</summary>
     <description>LinksPlatform's Platform.Exceptions is a Template Library what contains set of C++ abstract class templates. Use Platform.Exceptions.h file to include the library.</description>
-    <releaseNotes>Platform.Delegates.TemplateLibrary dependency updated from 0.0.3 to 0.0.4.</releaseNotes>
-    <version>0.0.12</version>
+    <releaseNotes>Platform.Delegates.TemplateLibrary dependency updated from 0.0.4 to 0.0.12.</releaseNotes>
+    <version>0.0.13</version>
     <authors>Konstantin Diachenko</authors>
     <owners>Konstantin Diachenko</owners>
     <copyright>Konstantin Diachenko</copyright>
@@ -18,7 +18,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <dependencies>
       <group targetFramework="native">
-        <dependency id="Platform.Delegates.TemplateLibrary" version="0.0.4" />
+        <dependency id="Platform.Delegates.TemplateLibrary" version="0.0.12" />
       </group>
     </dependencies>
   </metadata>
