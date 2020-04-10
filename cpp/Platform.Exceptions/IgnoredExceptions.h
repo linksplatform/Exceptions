@@ -6,7 +6,7 @@
 
         private: inline static std::vector<std::exception> _exceptionsBag;
 
-        public: static std::vector<std::exception> GetCollectedExceptions() { std::lock_guard<std::mutex> guard(_exceptionsBag_mutex); return std::vector<std::exception>(_exceptionsBag); }
+        public: static std::vector<std::exception> CollectedExceptions() { std::lock_guard<std::mutex> guard(_exceptionsBag_mutex); return std::vector<std::exception>(_exceptionsBag); }
 
         public: inline static bool CollectExceptions;
 
