@@ -18,151 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "0zjg/OeewLnmuXWUYvG0Hg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.Ensure.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.Ensure.html",
-          "hash": "FGU3h5kues+fja7XpIQq2A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.EnsureExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.EnsureExtensions.html",
-          "hash": "kFI9PFDPq2jJpCmeJd2ntg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.ExceptionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.ExceptionExtensions.html",
-          "hash": "ylMfPJ+6TPQql3jr6wlGhQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.ExtensionRoots.EnsureAlwaysExtensionRoot.html",
-          "hash": "8mCoo3BYx57v7dy0ggWpQA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.ExtensionRoots.EnsureOnDebugExtensionRoot.html",
-          "hash": "FiWtQyogtutvIdpGFgfIKQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.ExtensionRoots.ThrowExtensionRoot.html",
-          "hash": "cW+guCxPp/KNiUPOGWsJ4A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.ExtensionRoots.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.ExtensionRoots.html",
-          "hash": "bVeBiPbUPcxhJ5nEQGIvzA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.IgnoredExceptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.IgnoredExceptions.html",
-          "hash": "iCrxPCc41OJLMDaka3ZYoQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.Throw.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.Throw.html",
-          "hash": "8D5HcpT/9suLuwGpPopXeg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.ThrowExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.ThrowExtensions.html",
-          "hash": "P1d73ZdgNtt+kFxfsZJ4sg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Exceptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Exceptions.html",
-          "hash": "g05TgCY4LTPHqcfF9jzNWw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "YGsjz1vvrA2He81/aclp/w=="
+          "hash": "hOZbqf0jp21MmkiqQo+cYw=="
         }
       },
       "is_incremental": false,
@@ -177,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "EHyevWvdi39h9z8D865YCg=="
+          "hash": "r/fSO9hsQwMAROs3UrjC9Q=="
         }
       },
       "is_incremental": false,
@@ -199,12 +55,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 11,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
