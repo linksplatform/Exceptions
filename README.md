@@ -10,14 +10,14 @@
 
 LinksPlatform's Platform.Exceptions Class Library
 
-Namespace: [Platform.Exceptions](https://linksplatform.github.io/Exceptions/api/Platform.Exceptions.html)
+Namespace: [Platform.Exceptions](https://linksplatform.github.io/Exceptions/csharp/api/Platform.Exceptions.html)
 
 Forked from: [Konard/LinksPlatform/Platform/Platform.Helpers/Exceptions](https://github.com/Konard/LinksPlatform/tree/0c85f236b75e6e3110790008b1a379c03c954501/Platform/Platform.Helpers/Exceptions)
 
 NuGet package: [Platform.Exceptions](https://www.nuget.org/packages/Platform.Exceptions)
 
 ## [Documentation](https://linksplatform.github.io/Exceptions)
-[PDF file](https://linksplatform.github.io/Exceptions/Platform.Exceptions.pdf) with code for e-readers.
+[PDF file](https://linksplatform.github.io/Exceptions/csharp/Platform.Exceptions.pdf) with code for e-readers.
 
 ## Dependent libraries
 *   [Platform.Disposables](https://github.com/linksplatform/Disposables)
