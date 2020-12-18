@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
     <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFrameworks>net472;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5</TargetFrameworks>
     <AssemblyName>Platform.Exceptions</AssemblyName>
     <PackageId>Platform.Exceptions</PackageId>
     <PackageTags>LinksPlatform;Exceptions;Ensure;EnsureExtensions;ExceptionExtensions;IgnoredExceptions;Throw;ThrowExtensions;ExtensionRoots;EnsureAlwaysExtensionRoot;EnsureOnDebugExtensionRoot;ThrowExtensionRoot</PackageTags>
@@ -35,8 +35,12 @@
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
   </ItemGroup>
 
-  <Target Name="CSharpToCppTranslation" AfterTargets="PostBuildEvent" Condition="'$(OS)' == 'Windows_NT' AND $(TargetFramework) == 'netstandard2.1'">
-    <Exec Command="..\..\CSharpToCppTranslator\bin\$(Configuration)\netcoreapp3.0\CSharpToCppTranslator.exe $(ProjectDir) $(SolutionDir)cpp\$(ProjectName)\"></Exec>
+  <Target Name="CSharpToCppTranslation" AfterTargets="PostBuildEvent" Condition="'$(OS)' == 'Windows_NT' AND $(TargetFramework) == 'net5'">
+    <Exec Command="..\..\CSharpToCppTranslator\bin\$(Configuration)\net5\CSharpToCppTranslator.exe $(ProjectDir) $(SolutionDir)cpp\$(ProjectName)\"></Exec>
+  </Target>
+
+  <Target Name="CSharpToCppTranslation" AfterTargets="PostBuildEvent" Condition="'$(OS)' == 'Unix' AND $(TargetFramework) == 'net5'">
+    <Exec Command="../../CSharpToCppTranslator/bin/$(Configuration)/net5/CSharpToCppTranslator $(ProjectDir) $(SolutionDir)cpp/$(ProjectName)/"></Exec>
   </Target>
 
 </Project>
