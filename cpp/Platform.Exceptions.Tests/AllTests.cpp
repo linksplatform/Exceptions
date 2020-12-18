@@ -3,5 +3,5 @@
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 #include "EnsuranceTests.h"
 // Due to the nature of extension methods these tests do not apply to C++
-//#include "Ignore/EnsureExtensions.cpp"
-//#include "Ignore/IgnoredEnsuranceTests.cpp"
+//#include "Ignore/EnsureExtensions.h"
+//#include "Ignore/IgnoredEnsuranceTests.h"
