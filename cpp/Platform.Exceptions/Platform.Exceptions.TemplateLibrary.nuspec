@@ -19,7 +19,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <dependencies>
       <group targetFramework="native">
-        <dependency id="Platform.Delegates.TemplateLibrary" version="0.0.15" />
+        <dependency id="Platform.Delegates.TemplateLibrary" version="0.0.16" />
       </group>
     </dependencies>
   </metadata>
