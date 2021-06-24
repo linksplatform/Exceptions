@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Platform.Exceptions.TemplateLibrary</id>
     <title>LinksPlatform's Platform.Exceptions Template Library</title>
     <summary>LinksPlatform's Platform.Exceptions is a Template Library what contains abstract class templates.</summary>
     <description>LinksPlatform's Platform.Exceptions is a Template Library what contains set of C++ abstract class templates. Use Platform.Exceptions.h file to include the library.</description>
-    <releaseNotes>Platform.Delegates.TemplateLibrary dependency updated from 0.0.13 to 0.0.14.</releaseNotes>
+    <releaseNotes>Platform.Delegates.TemplateLibrary dependency updated from 0.0.14 to 0.0.15.
+    Fixed compile error.</releaseNotes>
     <version>0.0.15</version>
     <authors>Konstantin Diachenko</authors>
     <owners>Konstantin Diachenko</owners>
@@ -18,7 +19,7 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <dependencies>
       <group targetFramework="native">
-        <dependency id="Platform.Delegates.TemplateLibrary" version="0.0.14" />
+        <dependency id="Platform.Delegates.TemplateLibrary" version="0.0.15" />
       </group>
     </dependencies>
   </metadata>
