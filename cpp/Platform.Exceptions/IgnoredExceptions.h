@@ -6,7 +6,7 @@ namespace Platform::Exceptions
 
         private: inline static std::vector<std::exception> _exceptionsBag;
 
-        public: static std::vector<std::exception> CollectedExceptions() { return std::vector<std::exception>(_exceptionsBag); }
+        public: static std::vector<std::exception> CollectedExceptions() { std::lock_guard<std::mutex> guard(_exceptionsBag_mutex); return std::vector<std::exception>(_exceptionsBag); }
 
         public: inline static bool CollectExceptions;
 
@@ -16,6 +16,7 @@ namespace Platform::Exceptions
         {
             if (CollectExceptions)
             {
+                std::lock_guard<std::mutex> guard(_exceptionsBag_mutex);
                 _exceptionsBag.push_back(exception);
             }
         }
