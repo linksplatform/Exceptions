@@ -1,4 +1,4 @@
-﻿namespace Platform::Exceptions
+namespace Platform::Exceptions
 {
     class IgnoredExceptions
     {
@@ -10,13 +10,13 @@
 
         public: inline static bool CollectExceptions;
 
-        public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored.Invoke({}, exception); }
+        public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored({}, exception); }
 
         private: static void OnExceptionIgnored(void *sender, const std::exception& exception)
         {
             if (CollectExceptions)
             {
-                _exceptionsBag.Add(exception);
+                _exceptionsBag.push_back(exception);
             }
         }
 
