@@ -1,10 +1,7 @@
 ﻿namespace Platform::Exceptions::Tests::Ignore
 {
-    TEST_CLASS(IgnoredEnsuranceTests)
+    TEST(IgnoredEnsuranceTests, EnsuranceIgnoredTest)
     {
-        public: TEST_METHOD(EnsuranceIgnoredTest)
-        {
-            Platform::Exceptions::EnsureExtensions::ArgumentNotNull<void*>(Platform::Exceptions::Ensure::Always, {}, "object");
-        }
+        EXPECT_NO_THROW(Always::ArgumentNotNull(nullptr, "object"));
     };
 }

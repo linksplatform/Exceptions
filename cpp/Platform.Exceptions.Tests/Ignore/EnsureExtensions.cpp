@@ -1,9 +1,7 @@
-﻿namespace Platform::Exceptions::Tests::Ignore
+﻿namespace Platform::Exceptions::Tests::Ignore::Always
 {
-    class EnsureExtensions
+    void ArgumentNotNull(auto argument, const std::string& argumentName)
+        requires std::is_pointer_v<decltype(argument)> || std::is_null_pointer_v<decltype(argument)>
     {
-        public: template <typename TArgument> static void ArgumentNotNull(Platform::Exceptions::ExtensionRoots::EnsureAlwaysExtensionRoot root, TArgument* argument, std::string argumentName)
-        {
-        }
-    };
+    }
 }

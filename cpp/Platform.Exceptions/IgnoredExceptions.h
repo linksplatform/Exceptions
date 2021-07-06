@@ -12,7 +12,7 @@ namespace Platform::Exceptions
 
         public: static void RaiseExceptionIgnoredEvent(const std::exception& exception) { ExceptionIgnored({}, exception); }
 
-        private: static void OnExceptionIgnored(void *sender, const std::exception& exception)
+        private: static void OnExceptionIgnored(void* sender, const std::exception& exception)
         {
             if (CollectExceptions)
             {

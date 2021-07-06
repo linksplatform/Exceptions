@@ -1,6 +1,1 @@
-﻿namespace Platform::Exceptions::ExtensionRoots
-{
-    class EnsureAlwaysExtensionRoot
-    {
-    };
-}
+﻿/// No need

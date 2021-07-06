@@ -1,6 +1,1 @@
-﻿namespace Platform::Exceptions::ExtensionRoots
-{
-    class EnsureOnDebugExtensionRoot
-    {
-    };
-}
+﻿/// No need
