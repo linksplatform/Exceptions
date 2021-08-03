@@ -1,4 +1,5 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/db978d394fc8483395a46e8a6233bfe2)](https://app.codacy.com/gh/linksplatform/Exceptions?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Exceptions&utm_campaign=Badge_Grade_Settings)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/db978d394fc8483395a46e8a6233bfe2)](https://app.codacy.com/gh/linksplatform/Exceptions?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Exceptions&utm_campaign=Badge_Grade_Settings)
 [![Actions Status](https://github.com/linksplatform/Exceptions/workflows/CD/badge.svg)](https://github.com/linksplatform/Exceptions/actions?workflow=CD)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/30c1607451704a48957f5f91fab1431a)](https://app.codacy.com/app/drakonard/Exceptions?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Exceptions&utm_campaign=Badge_Grade_Dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/exceptions/badge)](https://www.codefactor.io/repository/github/linksplatform/exceptions)
