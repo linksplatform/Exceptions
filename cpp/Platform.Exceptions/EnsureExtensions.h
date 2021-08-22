@@ -1,4 +1,4 @@
-﻿namespace Platform::Exceptions::Always
+﻿namespace Platform::Exceptions::Ensure::Always
 {
     void ArgumentNotNull(auto argument, const std::string& argumentName, const std::string& message)
         requires std::is_pointer_v<decltype(argument)> || std::is_null_pointer_v<decltype(argument)>
@@ -45,4 +45,27 @@
     {
         ArgumentMeetsCriteria(std::forward<decltype(argument)>(argument), predicate, {});
     }
+}
+
+namespace Platform::Exceptions::Ensure::OnDebug
+{
+#ifdef NDEBUG
+    #define NDEBUG_CONSTEVAL consteval
+#else
+    #define NDEBUG_CONSTEVAL
+#endif
+
+    NDEBUG_CONSTEVAL static void ArgumentNotNull(auto&&... args)
+    #ifdef NDEBUG
+        noexcept {}
+    #else
+        { Always::ArgumentNotNull(std::forward<decltype(args)>(args)...); }
+    #endif
+
+    NDEBUG_CONSTEVAL static void ArgumentMeetsCriteria(auto&&... args)
+    #ifdef NDEBUG
+        noexcept {}
+    #else
+        { Always::ArgumentMeetsCriteria(std::forward<decltype(args)>(args)...); }
+    #endif
 }
