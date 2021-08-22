@@ -1,4 +1,4 @@
-﻿namespace Platform.Exceptions.ExtensionRoots
+namespace Platform.Exceptions.ExtensionRoots
 {
     /// <summary>
     /// <para>Represents the extension root class for Throw.A.</para>

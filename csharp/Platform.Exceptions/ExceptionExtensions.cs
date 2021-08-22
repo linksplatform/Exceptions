@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text;
 
 namespace Platform.Exceptions
@@ -49,6 +49,24 @@ namespace Platform.Exceptions
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Builds the exception string using the specified sb.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="sb">
+        /// <para>The sb.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="exception">
+        /// <para>The exception.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="level">
+        /// <para>The level.</para>
+        /// <para></para>
+        /// </param>
         private static void BuildExceptionString(this StringBuilder sb, Exception exception, int level)
         {
             sb.Indent(level);
@@ -67,6 +85,20 @@ namespace Platform.Exceptions
             sb.AppendLine(exception.StackTrace);
         }
 
+        /// <summary>
+        /// <para>
+        /// Indents the sb.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="sb">
+        /// <para>The sb.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="level">
+        /// <para>The level.</para>
+        /// <para></para>
+        /// </param>
         private static void Indent(this StringBuilder sb, int level) => sb.Append('\t', level);
     }
 }

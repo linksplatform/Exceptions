@@ -1,10 +1,22 @@
-﻿using System;
+using System;
 using Xunit;
 
 namespace Platform.Exceptions.Tests
 {
+    /// <summary>
+    /// <para>
+    /// Represents the ensurance tests.
+    /// </para>
+    /// <para></para>
+    /// </summary>
     public static class EnsuranceTests
     {
+        /// <summary>
+        /// <para>
+        /// Tests that argument not null ensurance test.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [Fact]
         public static void ArgumentNotNullEnsuranceTest()
         {

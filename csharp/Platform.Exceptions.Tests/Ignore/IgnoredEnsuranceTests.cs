@@ -1,9 +1,21 @@
-﻿using Xunit;
+using Xunit;
 
 namespace Platform.Exceptions.Tests.Ignore
 {
+    /// <summary>
+    /// <para>
+    /// Represents the ignored ensurance tests.
+    /// </para>
+    /// <para></para>
+    /// </summary>
     public static class IgnoredEnsuranceTests
     {
+        /// <summary>
+        /// <para>
+        /// Tests that ensurance ignored test.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [Fact]
         public static void EnsuranceIgnoredTest()
         {

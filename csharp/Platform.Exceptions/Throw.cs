@@ -1,4 +1,4 @@
-﻿using Platform.Exceptions.ExtensionRoots;
+using Platform.Exceptions.ExtensionRoots;
 
 namespace Platform.Exceptions
 {
