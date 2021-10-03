@@ -21,8 +21,7 @@ namespace Platform.Exceptions
         /// </summary>
         public static readonly string ExceptionStringBuildingFailed = "Unable to format exception.";
 
-        /// <summary>
-        /// <para>Ignores the exception, notifying the <see cref = "IgnoredExceptions" /> class about it.</para>
+        private about it.</para>
         /// <para>Игнорирует исключение, уведомляя об этом класс <see cref="IgnoredExceptions"/>.</para>
         /// </summary>
         /// <param name="exception"><para></para><para></para></param>
@@ -49,24 +48,6 @@ namespace Platform.Exceptions
             }
         }
 
-        /// <summary>
-        /// <para>
-        /// Builds the exception string using the specified sb.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        /// <param name="sb">
-        /// <para>The sb.</para>
-        /// <para></para>
-        /// </param>
-        /// <param name="exception">
-        /// <para>The exception.</para>
-        /// <para></para>
-        /// </param>
-        /// <param name="level">
-        /// <para>The level.</para>
-        /// <para></para>
-        /// </param>
         private static void BuildExceptionString(this StringBuilder sb, Exception exception, int level)
         {
             sb.Indent(level);
@@ -85,20 +66,6 @@ namespace Platform.Exceptions
             sb.AppendLine(exception.StackTrace);
         }
 
-        /// <summary>
-        /// <para>
-        /// Indents the sb.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        /// <param name="sb">
-        /// <para>The sb.</para>
-        /// <para></para>
-        /// </param>
-        /// <param name="level">
-        /// <para>The level.</para>
-        /// <para></para>
-        /// </param>
         private static void Indent(this StringBuilder sb, int level) => sb.Append('\t', level);
     }
 }
