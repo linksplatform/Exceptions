@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef Platform_Exceptions
-#define Platform_Exceptions
-
 #include <vector>
 #include <mutex>
 #include <functional>
@@ -18,5 +15,3 @@
 #include "ExceptionExtensions.h"
 #include "Throw.h"
 #include "ThrowExtensions.h"
-
-#endif
