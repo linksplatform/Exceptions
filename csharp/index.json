@@ -57,6 +57,6 @@
   "README.html": {
     "href": "README.html",
     "title": "Exceptions | LinksPlatform's Platform.Exceptions Library",
-    "keywords": "C# C++ Exceptions LinksPlatform's Platform.Exceptions Class Library Namespace: Platform.Exceptions Forked from: Konard/LinksPlatform/Platform/Platform.Helpers/Exceptions NuGet package: Platform.Exceptions Documentation PDF file with code for e-readers. Dependent libraries Platform.Disposables Platform.Ranges Platform.Reflection.Sigil"
+    "keywords": "C++ C# Exceptions LinksPlatform's Platform.Exceptions Class Library Namespace: Platform.Exceptions Forked from: Konard/LinksPlatform/Platform/Platform.Helpers/Exceptions NuGet package: Platform.Exceptions Documentation PDF file with code for e-readers. Dependent libraries Platform.Disposables Platform.Ranges Platform.Reflection.Sigil"
   }
 }
