@@ -2,9 +2,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/db978d394fc8483395a46e8a6233bfe2)](https://app.codacy.com/gh/linksplatform/Exceptions?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Exceptions&utm_campaign=Badge_Grade_Settings)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/exceptions/badge)](https://www.codefactor.io/repository/github/linksplatform/exceptions)
 
-| [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions)](https://www.nuget.org/packages/Platform.Exceptions) | C# |
-|-|-|
 | [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions.TemplateLibrary)](https://www.nuget.org/packages/Platform.Exceptions.TemplateLibrary) [![ConanCenter package](https://repology.org/badge/version-for-repo/conancenter/platform.exceptions.svg)](https://conan.io/center/platform.exceptions) | __C++__  |
+|-|-|
+| [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions)](https://www.nuget.org/packages/Platform.Exceptions) | C# |
 
 # [Exceptions](https://github.com/linksplatform/Exceptions)
 
