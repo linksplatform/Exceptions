@@ -4,7 +4,7 @@
 
 | [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions)](https://www.nuget.org/packages/Platform.Exceptions) | C# |
 |-|-|
-| [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions.TemplateLibrary)](https://www.nuget.org/packages/Platform.Exceptions.TemplateLibrary)  | __C++__  |
+| [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Exceptions.TemplateLibrary)](https://www.nuget.org/packages/Platform.Exceptions.TemplateLibrary) [![ConanCenter package](https://repology.org/badge/version-for-repo/conancenter/platform.exceptions.svg)](https://conan.io/center/platform.exceptions) | __C++__  |
 
 # [Exceptions](https://github.com/linksplatform/Exceptions)
 
