@@ -10,12 +10,6 @@ namespace Platform.Exceptions
     /// </summary>
     public static class IgnoredExceptions
     {
-        /// <summary>
-        /// <para>
-        /// The exception.
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private static readonly ConcurrentBag<Exception> _exceptionsBag = new ConcurrentBag<Exception>();
 
         /// <summary>
@@ -46,21 +40,6 @@ namespace Platform.Exceptions
         /// <para>Рекомендуется вызывать этот метод в тех случаях, когда у вас есть catch блок, но вы ничего не делаете в нём с исключением.</para>
         /// </remarks>
         public static void RaiseExceptionIgnoredEvent(Exception exception) => ExceptionIgnored.Invoke(null, exception);
-
-        /// <summary>
-        /// <para>
-        /// Ons the exception ignored using the specified sender.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        /// <param name="sender">
-        /// <para>The sender.</para>
-        /// <para></para>
-        /// </param>
-        /// <param name="exception">
-        /// <para>The exception.</para>
-        /// <para></para>
-        /// </param>
         private static void OnExceptionIgnored(object sender, Exception exception)
         {
             if (CollectExceptions)
