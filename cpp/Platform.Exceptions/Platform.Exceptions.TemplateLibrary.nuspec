@@ -22,18 +22,4 @@
       </group>
     </dependencies>
   </metadata>
-  <files>
-    <file src="icon.png" target="images/icon.png" />
-    <file src="Platform.Exceptions.TemplateLibrary.targets" target="build\native\Platform.Exceptions.TemplateLibrary.targets" />
-    <file src="ExtensionRoots\EnsureAlwaysExtensionRoot.h" target="lib\native\include\ExtensionRoots\EnsureAlwaysExtensionRoot.h" />
-    <file src="ExtensionRoots\EnsureOnDebugExtensionRoot.h" target="lib\native\include\ExtensionRoots\EnsureOnDebugExtensionRoot.h" />
-    <file src="ExtensionRoots\ThrowExtensionRoot.h" target="lib\native\include\ExtensionRoots\ThrowExtensionRoot.h" />
-    <file src="Platform.Exceptions.h" target="lib\native\include\Platform.Exceptions.h" />
-    <file src="Ensure.h" target="lib\native\include\Ensure.h" />
-    <file src="EnsureExtensions.h" target="lib\native\include\EnsureExtensions.h" />
-    <file src="ExceptionExtensions.h" target="lib\native\include\ExceptionExtensions.h" />
-    <file src="IgnoredExceptions.h" target="lib\native\include\IgnoredExceptions.h" />
-    <file src="Throw.h" target="lib\native\include\Throw.h" />
-    <file src="ThrowExtensions.h" target="lib\native\include\ThrowExtensions.h" />
-  </files>
 </package>
