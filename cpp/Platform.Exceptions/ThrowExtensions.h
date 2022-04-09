@@ -10,7 +10,7 @@
 
     void ArgumentLinkDoesNotExistsException() { throw std::logic_error("The passed link does not exists."); }
 
-    void ArgumentLinkHasDependenciesException() { throw std::logic_error("The passed link has dependencies that prevents changes of the passed link inner structure."); }
+    void ArgumentLinkHasDependenciesException() { throw std::logic_error("The passed link inner structure changes are prevented by its dependencies."); }
 
     void LinkWithSameValueAlreadyExistsException() { throw std::logic_error("Link with same value already exists."); }
 
