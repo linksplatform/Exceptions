@@ -5,8 +5,8 @@
     <title>LinksPlatform's Platform.Exceptions Template Library</title>
     <summary>LinksPlatform's Platform.Exceptions is a Template Library what contains abstract class templates.</summary>
     <description>LinksPlatform's Platform.Exceptions is a Template Library what contains set of C++ abstract class templates. Use Platform.Exceptions.h file to include the library.</description>
-    <releaseNotes>OnDebug/Always exceptions.</releaseNotes>
-    <version>0.2.0</version>
+    <releaseNotes>ArgumentLinkDoesNotExistsException, ArgumentLinkHasDependenciesException, LinkWithSameValueAlreadyExistsException, LinksLimitReachedException throw exceptions are added.</releaseNotes>
+    <version>0.2.1</version>
     <authors>Konstantin Diachenko</authors>
     <owners>Konstantin Diachenko</owners>
     <copyright>Konstantin Diachenko</copyright>
