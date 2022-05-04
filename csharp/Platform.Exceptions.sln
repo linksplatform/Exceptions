@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Exceptions", "Plat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Exceptions.Tests", "Platform.Exceptions.Tests\Platform.Exceptions.Tests.csproj", "{1B2D5587-35A6-42B4-A3DA-271AEFBD4DDD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpToCppTranslator", "CSharpToCppTranslator\CSharpToCppTranslator.csproj", "{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,18 @@ Global
 		{1B2D5587-35A6-42B4-A3DA-271AEFBD4DDD}.Release|x64.Build.0 = Release|Any CPU
 		{1B2D5587-35A6-42B4-A3DA-271AEFBD4DDD}.Release|x86.ActiveCfg = Release|Any CPU
 		{1B2D5587-35A6-42B4-A3DA-271AEFBD4DDD}.Release|x86.Build.0 = Release|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Debug|x64.Build.0 = Debug|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Debug|x86.Build.0 = Debug|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Release|x64.ActiveCfg = Release|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Release|x64.Build.0 = Release|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Release|x86.ActiveCfg = Release|Any CPU
+		{C1E8DBB2-A8AE-4BB3-BA00-ABE35B64D67E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
