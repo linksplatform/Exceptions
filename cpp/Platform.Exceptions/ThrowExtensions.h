@@ -1,18 +1,18 @@
 ﻿namespace Platform::Exceptions
 {
-    void NotSupportedException() { throw std::logic_error("Not supported exception."); }
+    auto NotSupportedException() { return std::logic_error("Not supported exception."); }
 
-    void NotSupportedExceptionAndReturn() { throw std::logic_error("Not supported exception."); }
+    auto NotSupportedExceptionAndReturn() { return std::logic_error("Not supported exception."); }
 
-    void NotImplementedException() { throw std::logic_error("Not implemented exception."); }
+    auto NotImplementedException() { return std::logic_error("Not implemented exception."); }
 
-    void NotImplementedExceptionAndReturn() { throw std::logic_error("Not implemented exception."); }
+    auto NotImplementedExceptionAndReturn() { return std::logic_error("Not implemented exception."); }
 
-    void ArgumentLinkDoesNotExistsException() { throw std::logic_error("The passed link does not exists."); }
+    auto ArgumentLinkDoesNotExistsException() { return std::logic_error("The passed link does not exists."); }
 
-    void ArgumentLinkHasDependenciesException() { throw std::logic_error("The passed link inner structure changes are prevented by its dependencies."); }
+    auto ArgumentLinkHasDependenciesException() { return std::logic_error("The passed link inner structure changes are prevented by its dependencies."); }
 
-    void LinkWithSameValueAlreadyExistsException() { throw std::logic_error("Link with same value already exists."); }
+    auto LinkWithSameValueAlreadyExistsException() { return std::logic_error("Link with same value already exists."); }
 
-    void LinksLimitReachedException() { throw std::logic_error("Storage links limit has been reached."); }
+    auto LinksLimitReachedException() { return std::logic_error("Storage links limit has been reached."); }
 }
