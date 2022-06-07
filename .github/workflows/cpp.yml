@@ -63,12 +63,12 @@ jobs:
         submodules: true
     - name: Read package information
       run: |
-        export REPOSITORY_NAME=$(basename ${{ github.event.repository.name }})
+        export REPOSITORY_NAME=$(basename ${{ github.repository }})
         wget "$SCRIPTS_BASE_URL/read_cpp_package_info.sh"
         bash ./read_cpp_package_info.sh
     - name: Publish NuGet package
       run: |
-        export REPOSITORY_NAME=$(basename ${{ github.event.repository.name }})
+        export REPOSITORY_NAME=$(basename ${{ github.repository }})
         wget "$SCRIPTS_BASE_URL/push-cpp-nuget.sh"
         bash ./push-cpp-nuget.sh
   publiseRelease:
@@ -80,12 +80,12 @@ jobs:
           submodules: true
       - name: Read project information
         run: |
-          export REPOSITORY_NAME=$(basename ${{ github.event.repository.name }})
+          export REPOSITORY_NAME=$(basename ${{ github.repository }})
           wget "$SCRIPTS_BASE_URL/read_cpp_package_info.sh"
           bash ./read_cpp_package_info.sh
       - name: Publish release
         run: |
-          export REPOSITORY_NAME=$(basename ${{ github.event.repository.name }})
+          export REPOSITORY_NAME=$(basename ${{ github.repository }})
           wget "$SCRIPTS_BASE_URL/publish-release.sh"
           chmod +x ./publish-release.sh
           wget "$SCRIPTS_BASE_URL/publish-cpp-release.sh"
