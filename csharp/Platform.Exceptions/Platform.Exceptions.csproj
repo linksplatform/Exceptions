@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Exceptions Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
-    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionPrefix>0.5.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>net7</TargetFramework>
     <AssemblyName>Platform.Exceptions</AssemblyName>
@@ -23,7 +23,9 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Added support for .NET 5.</PackageReleaseNotes>
+    <PackageReleaseNotes>Bump Microsoft.NETFramework.ReferenceAssemblies from 1.0.0 to 1.0.2.
+Change license to unlicense.
+Change target frameworks to net7.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
