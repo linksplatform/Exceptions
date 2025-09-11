@@ -33,7 +33,7 @@
     <ClInclude Include="Throw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ThrowExtensions.h">
+    <ClInclude Include="ExceptionFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ExtensionRoots\EnsureAlwaysExtensionRoot.h">

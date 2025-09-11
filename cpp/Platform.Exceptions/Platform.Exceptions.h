@@ -14,4 +14,4 @@
 #include "IgnoredExceptions.h"
 #include "ExceptionExtensions.h"
 #include "Throw.h"
-#include "ThrowExtensions.h"
+#include "ExceptionFactory.h"
