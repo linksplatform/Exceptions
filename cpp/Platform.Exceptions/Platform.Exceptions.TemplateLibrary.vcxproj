@@ -152,7 +152,7 @@
     <ClInclude Include="IgnoredExceptions.h" />
     <ClInclude Include="Platform.Exceptions.h" />
     <ClInclude Include="Throw.h" />
-    <ClInclude Include="ThrowExtensions.h" />
+    <ClInclude Include="ExceptionFactory.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
