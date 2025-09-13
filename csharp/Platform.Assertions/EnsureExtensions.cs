@@ -1,11 +1,11 @@
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
-using Platform.Exceptions.ExtensionRoots;
+using Platform.Assertions.ExtensionRoots;
 
 #pragma warning disable IDE0060 // Remove unused parameter
 
-namespace Platform.Exceptions
+namespace Platform.Assertions
 {
     /// <summary>
     /// <para>Provides a set of extension methods for <see cref="EnsureAlwaysExtensionRoot"/> and <see cref="EnsureOnDebugExtensionRoot"/> objects.</para>
@@ -161,7 +161,7 @@ namespace Platform.Exceptions
 
         /// <summary>
         /// <para>Ensures that the argument meets the criteria. This check is performed only for DEBUG build configuration.</para>
-        /// <para>Гарантирует, что аргумент соответствует критерию. Эта проверка выполняется только для конфигурации сборки DEBUG.</para>
+        /// <para>Гарантirует, что аргумент соответствует критерию. Эта проверка выполняется только для конфигурации сборки DEBUG.</para>
         /// </summary>
         /// <typeparam name="TArgument"><para>Type of argument.</para><para>Тип аргумента.</para></typeparam>
         /// <param name="root"><para>The extension root to which this method is bound.</para><para>Корень-расширения, к которому привязан этот метод.</para></param>

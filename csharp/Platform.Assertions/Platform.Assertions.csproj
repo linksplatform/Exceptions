@@ -1,20 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>LinksPlatform's Platform.Exceptions Class Library</Description>
+    <Description>LinksPlatform's Platform.Assertions Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
-    <AssemblyTitle>Platform.Exceptions</AssemblyTitle>
-    <VersionPrefix>0.5.0</VersionPrefix>
+    <AssemblyTitle>Platform.Assertions</AssemblyTitle>
+    <VersionPrefix>0.1.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>net8</TargetFramework>
-    <AssemblyName>Platform.Exceptions</AssemblyName>
-    <PackageId>Platform.Exceptions</PackageId>
-    <PackageTags>LinksPlatform;Exceptions;ExceptionExtensions;IgnoredExceptions;Throw;ThrowExtensions;ExtensionRoots;ThrowExtensionRoot</PackageTags>
+    <AssemblyName>Platform.Assertions</AssemblyName>
+    <PackageId>Platform.Assertions</PackageId>
+    <PackageTags>LinksPlatform;Assertions;Ensure;EnsureExtensions;ExtensionRoots;EnsureAlwaysExtensionRoot;EnsureOnDebugExtensionRoot</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
-    <PackageProjectUrl>https://linksplatform.github.io/Exceptions</PackageProjectUrl>
+    <PackageProjectUrl>https://linksplatform.github.io/Assertions</PackageProjectUrl>
     <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>git://github.com/linksplatform/Exceptions</RepositoryUrl>
+    <RepositoryUrl>git://github.com/linksplatform/Assertions</RepositoryUrl>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -23,7 +23,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Update target framework from net7 to net8.</PackageReleaseNotes>
+    <PackageReleaseNotes>Initial release with assertion functionality moved from Platform.Exceptions.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -34,11 +34,5 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="../Platform.Assertions/Platform.Assertions.csproj" />
-  </ItemGroup>
-
-
 
 </Project>

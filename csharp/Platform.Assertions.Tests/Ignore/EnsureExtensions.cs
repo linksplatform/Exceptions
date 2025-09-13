@@ -1,7 +1,7 @@
 using System.Diagnostics;
-using Platform.Exceptions.ExtensionRoots;
+using Platform.Assertions.ExtensionRoots;
 
-namespace Platform.Exceptions.Tests.Ignore
+namespace Platform.Assertions.Tests.Ignore
 {
     public static class EnsureExtensions
     {

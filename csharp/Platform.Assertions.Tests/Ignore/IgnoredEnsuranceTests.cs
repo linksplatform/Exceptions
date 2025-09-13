@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace Platform.Exceptions.Tests.Ignore
+namespace Platform.Assertions.Tests.Ignore
 {
     public static class IgnoredEnsuranceTests
     {
