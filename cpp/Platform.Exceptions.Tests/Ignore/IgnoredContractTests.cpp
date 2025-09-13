@@ -1,6 +1,6 @@
 ﻿namespace Platform::Exceptions::Tests::Ignore
 {
-    TEST(IgnoredEnsuranceTests, EnsuranceIgnoredTest)
+    TEST(IgnoredContractTests, ContractIgnoredTest)
     {
         EXPECT_NO_THROW(Always::ArgumentNotNull(nullptr, "object"));
     };
