@@ -1,4 +1,4 @@
-﻿namespace Platform::Exceptions::Ensure::Always
+﻿namespace Platform::Exceptions::Contract::Always
 {
     void ArgumentNotNull(auto argument, const std::string& argumentName, const std::string& message)
         requires std::is_pointer_v<decltype(argument)> || std::is_null_pointer_v<decltype(argument)>
@@ -47,7 +47,7 @@
     }
 }
 
-namespace Platform::Exceptions::Ensure::OnDebug
+namespace Platform::Exceptions::Contract::OnDebug
 {
 #ifdef NDEBUG
     #define NDEBUG_CONSTEVAL consteval
