@@ -1,6 +1,6 @@
-using Platform.Exceptions.ExtensionRoots;
+using Platform.Assertions.ExtensionRoots;
 
-namespace Platform.Exceptions
+namespace Platform.Assertions
 {
     /// <summary>
     /// <para>Contains two extensible classes instances that can be supplemented with static helper methods by using the extension mechanism. These methods ensure the contract compliance.</para>

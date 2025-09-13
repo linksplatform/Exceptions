@@ -1,4 +1,4 @@
-namespace Platform.Exceptions.ExtensionRoots
+namespace Platform.Assertions.ExtensionRoots
 {
     /// <summary>
     /// <para>Represents the extension root class for Ensure.Always.</para>
