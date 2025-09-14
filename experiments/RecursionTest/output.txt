@@ -1,0 +1,42 @@
+/tmp/gh-issue-solver-1757842410291/experiments/RecursionTest/Program.cs(57,30): warning CS0168: The variable 'ex' is declared but never used [/tmp/gh-issue-solver-1757842410291/experiments/RecursionTest/RecursionTest.csproj]
+/tmp/gh-issue-solver-1757842410291/experiments/RecursionTest/Program.cs(90,30): warning CS0168: The variable 'ex' is declared but never used [/tmp/gh-issue-solver-1757842410291/experiments/RecursionTest/RecursionTest.csproj]
+Testing recursive vs iterative implementations:
+
+RECURSIVE VERSION:
+Outer exception
+---
+Inner exception: 
+	Middle exception
+	---
+	Inner exception: 
+		Innermost exception
+		---
+		---
+		
+	---
+	
+---
+
+
+
+ITERATIVE VERSION:
+Outer exception
+---
+Inner exception: 
+---
+
+	Middle exception
+	---
+	Inner exception: 
+	---
+	
+		Innermost exception
+		---
+		---
+		
+
+
+Results are equal: False
+DIFFERENCE FOUND!
+Recursive length: 129
+Iterative length: 129
