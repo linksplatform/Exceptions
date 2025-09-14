@@ -19,7 +19,7 @@ namespace Platform.Exceptions
         /// <para>Represents a string returned from <see cref="ToStringWithAllInnerExceptions(Exception)"/> in the event of an unsuccessful attempt to format an exception. This field is a constant.</para>
         /// <para>Представляет строку выдаваемую из <see cref="ToStringWithAllInnerExceptions(Exception)"/> в случае неудачной попытки форматирования исключения. Это поле является константой.</para>
         /// </summary>
-        public static readonly string ExceptionStringBuildingFailed = "Unable to format exception.";
+        public static readonly string ExceptionStringBuildingFailed = Resources.UnableToFormatException;
 
         /// <summary>
         /// <para>Ignores the exception, notifying the <see cref = "IgnoredExceptions" /> class about it.</para>
@@ -57,7 +57,7 @@ namespace Platform.Exceptions
             if (exception.InnerException != null)
             {
                 sb.Indent(level);
-                sb.AppendLine("Inner exception: ");
+                sb.AppendLine(Resources.InnerException);
                 sb.BuildExceptionString(exception.InnerException, level + 1);
             }
             sb.Indent(level);

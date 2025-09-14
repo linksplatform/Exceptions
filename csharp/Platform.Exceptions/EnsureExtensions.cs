@@ -43,7 +43,7 @@ namespace Platform.Exceptions
         /// <param name="argument"><para>The argument.</para><para>Аргумент.</para></param>
         /// <param name="argumentName"><para>The argument's name.</para><para>Имя аргумента.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentNotNull<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, string argumentName) where TArgument : class => ArgumentNotNull(root, argument, argumentName, $"Argument {argumentName} is null.");
+        public static void ArgumentNotNull<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, string argumentName) where TArgument : class => ArgumentNotNull(root, argument, argumentName, string.Format(Resources.ArgumentIsNull, argumentName));
 
         /// <summary>
         /// <para>Ensures that argument is not null. This check is performed regardless of the build configuration.</para>
@@ -84,7 +84,7 @@ namespace Platform.Exceptions
         /// <param name="predicate"><para>A predicate that determines whether the argument meets a criterion.</para><para>Предикат определяющий, соответствует ли аргумент критерию.</para></param>
         /// <param name="argumentName"><para>The argument's name.</para><para>Имя аргумента.</para></param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName) => ArgumentMeetsCriteria(root, argument, predicate, argumentName, $"Argument {argumentName} does not meet the criteria.");
+        public static void ArgumentMeetsCriteria<TArgument>(this EnsureAlwaysExtensionRoot root, TArgument argument, Predicate<TArgument> predicate, string argumentName) => ArgumentMeetsCriteria(root, argument, predicate, argumentName, string.Format(Resources.ArgumentDoesNotMeetCriteria, argumentName));
 
         /// <summary>
         /// <para>Ensures that the argument meets the criteria. This check is performed regardless of the build configuration.</para>
