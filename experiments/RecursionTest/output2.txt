@@ -1,0 +1,37 @@
+Testing recursive vs iterative implementations:
+
+RECURSIVE VERSION:
+Outer exception
+---
+Inner exception: 
+	Middle exception
+	---
+	Inner exception: 
+		Innermost exception
+		---
+		---
+		
+	---
+	
+---
+
+
+
+ITERATIVE VERSION:
+Outer exception
+---
+Inner exception: 
+	Middle exception
+	---
+	Inner exception: 
+		Innermost exception
+		---
+		---
+		
+	---
+	
+---
+
+
+
+Results are equal: True
